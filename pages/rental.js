@@ -7,13 +7,13 @@ export default function Rental() {
   return (
     <>
       <Head>
-        <title>KATASHINA SKIMO CAMP</title>
+        <title>KATASHINA SKIMO CAMP | レンタル</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <body>
         <Navbar />
         <main className='min-h-screen'>
-        <h2 className="bg-gray-100 p-20 md:p-32 text-center text-2xl md:text-3xl font-bold">レンタル</h2>
+        <h1 className="bg-gray-100 p-20 md:p-32 text-center text-2xl md:text-3xl font-bold">レンタル</h1>
           <section className='events mb-8 p-4 md:p-10'>
             <div className='w-full'>
               <div className='grid gap-4 grid-cols-1 sm:grid-cols-2'>

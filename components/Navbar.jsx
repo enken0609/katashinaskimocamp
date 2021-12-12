@@ -55,11 +55,14 @@ export const Navbar = () => {
                 レンタル
               </a>
             </Link>
-            <Link href='/contact'>
+            <Link href='/faq'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white text-sm font-bold items-center justify-center mr-4 hover:bg-gray-800 hover:text-white'>
-                お問い合わせ
+                よくある質問
               </a>
             </Link>
+            <a href="https://forms.gle/ErbW5rLC1JV6fyBM7" target="_blank" className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white text-sm font-bold items-center justify-center mr-4 hover:bg-gray-800 hover:text-white'>
+              お問い合わせ
+            </a>
           </div>
         </div>
       </nav>

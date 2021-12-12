@@ -8,13 +8,13 @@ export default function Events({ events }) {
   return (
     <>
       <Head>
-        <title>KATASHINA SKIMO CAMP</title>
+        <title>KATASHINA SKIMO CAMP | イベント一覧</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <body>
         <Navbar />
         <main className='min-h-screen'>
-          <h2 className="bg-gray-100 p-20 md:p-32 text-center text-2xl md:text-3xl font-bold">イベント一覧</h2>
+          <h1 className="bg-gray-100 p-20 md:p-32 text-center text-2xl md:text-3xl font-bold">イベント一覧</h1>
           <section className='events mb-8 p-4 md:p-10'>
             {events.length > 0 ? (
               <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5'>
