@@ -16,7 +16,7 @@ export default function Home({ events }) {
         <Navbar />
         <main className='min-h-screen'>
           <section className='p-8'>
-            <Image src="/../public/images/ksc_mv.jpg" width={1920} height={1080} className='rounded-xl' />
+            <Image src="/images/ksc_mv.jpg" width={1920} height={1080} className='rounded-xl' />
             <div className='text-center md:w-2/3 pt-8 mx-auto'>
               <h1 class="text-2xl md:text-5xl font-bold mb-2">KATASHINA SKIMO CAMP</h1>
               <p class="text-md md:text-3xl text-gray-500 mb-4">片品村で<span class="text-black font-bold">SKIMO</span>デビューしませんか？</p>
@@ -79,7 +79,7 @@ export default function Home({ events }) {
             <div className='w-full'>
               <div className='grid gap-4 grid-cols-1 sm:grid-cols-2'>
                 <div className='text-center'>
-                  <Image src='/../public/images/gear.png' width={300} height={300} className='rounded-lg' />
+                  <Image src='/images/gear.png' width={300} height={300} className='rounded-lg' />
                 </div>
                 <div className='p-8'>
                   <p className='mb-6'>最新のギア！国内最軽量！をご用意しています。</p>
@@ -106,7 +106,7 @@ export default function Home({ events }) {
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   <div class="bg-white w-full shadow-lg rounded-lg p-12 flex flex-col justify-center items-center">
                     <div class="mb-8">
-                      <Image src='/../public/images/kazuakihoshino.jpeg' width={300} height={300} className='object-center object-cover rounded-full h-36 w-36' />
+                      <Image src='/images/kazuakihoshino.jpeg' width={300} height={300} className='object-center object-cover rounded-full h-36 w-36' />
                     </div>
                     <div class="text-center">
                       <p class="text-xl text-gray-900 font-bold mb-2">星野 和昭</p>
@@ -130,7 +130,7 @@ export default function Home({ events }) {
                   </div>
                   <div class="bg-white w-full shadow-lg rounded-lg p-12 flex flex-col justify-center items-center">
                     <div class="mb-8">
-                      <Image src='/../public/images/ayaka_ueda.jpeg' width={300} height={300} className='object-center object-cover rounded-full h-36 w-36' />
+                      <Image src='/images/ayaka_ueda.jpeg' width={300} height={300} className='object-center object-cover rounded-full h-36 w-36' />
                     </div>
                     <div class="text-center">
                       <p class="text-xl text-gray-900 font-bold mb-2">上田 絢香</p>
@@ -153,7 +153,7 @@ export default function Home({ events }) {
                   </div>
                   <div class="bg-white w-full shadow-lg rounded-lg p-12 flex flex-col justify-center items-center">
                     <div class="mb-8">
-                      <Image src='/../public/images/kenta_endo.jpeg' width={300} height={300} className='object-center object-cover rounded-full h-36 w-36' />
+                      <Image src='/images/kenta_endo.jpeg' width={300} height={300} className='object-center object-cover rounded-full h-36 w-36' />
                     </div>
                     <div class="text-center">
                       <p class="text-xl text-gray-900 font-bold mb-2">遠藤 健太</p>
@@ -184,15 +184,15 @@ export default function Home({ events }) {
             </div>
             <div class="w-full">
               <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-                <Image src='/../public/images/gallery_6.jpg' width={300} height={300} className='rounded-lg' />
-                <Image src='/../public/images/gallery_1.jpg' width={300} height={300} className='rounded-lg' />
-                <Image src='/../public/images/gallery_9.jpg' width={300} height={300} className='rounded-lg' />
-                <Image src='/../public/images/gallery_7.jpg' width={300} height={300} className='rounded-lg' />
-                <Image src='/../public/images/gallery_4.jpg' width={300} height={300} className='rounded-lg' />
-                <Image src='/../public/images/gallery_3.jpg' width={300} height={300} className='rounded-lg' />
-                <Image src='/../public/images/gallery_5.jpg' width={300} height={300} className='rounded-lg' />
-                <Image src='/../public/images/gallery_8.jpg' width={300} height={300} className='rounded-lg' />
-                <Image src='/../public/images/gallery_2.jpg' width={300} height={300} className='rounded-lg' />
+                <Image src='/images/gallery_6.jpg' width={300} height={300} className='rounded-lg' />
+                <Image src='/images/gallery_1.jpg' width={300} height={300} className='rounded-lg' />
+                <Image src='/images/gallery_9.jpg' width={300} height={300} className='rounded-lg' />
+                <Image src='/images/gallery_7.jpg' width={300} height={300} className='rounded-lg' />
+                <Image src='/images/gallery_4.jpg' width={300} height={300} className='rounded-lg' />
+                <Image src='/images/gallery_3.jpg' width={300} height={300} className='rounded-lg' />
+                <Image src='/images/gallery_5.jpg' width={300} height={300} className='rounded-lg' />
+                <Image src='/images/gallery_8.jpg' width={300} height={300} className='rounded-lg' />
+                <Image src='/images/gallery_2.jpg' width={300} height={300} className='rounded-lg' />
               </div>
             </div>
           </section>

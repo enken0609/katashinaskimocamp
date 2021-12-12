@@ -18,7 +18,7 @@ export default function Rental() {
             <div className='w-full'>
               <div className='grid gap-4 grid-cols-1 sm:grid-cols-2'>
                 <div className='text-center'>
-                  <Image src='/../public/images/gear.png' width={300} height={300} className='rounded-lg' />
+                  <Image src='/images/gear.png' width={300} height={300} className='rounded-lg' />
                 </div>
                 <div className='p-8'>
                   <p className='mb-6'>最新のギア！国内最軽量！をご用意しています。</p>
