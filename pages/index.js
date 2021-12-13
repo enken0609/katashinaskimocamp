@@ -9,7 +9,19 @@ export default function Home({ events }) {
   return (
     <>
       <Head>
-        <title>KATASHINA SKIMO CAMP | ホーム</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>ホーム | KATASHINA SKIMO CAMP</title>
+        <meta name="description" content="ページの内容を表す文章" />
+        <meta property="og:url" content="ページのURL" />
+        <meta property="og:title" content="ページのタイトル" />
+        <meta property="og:type" content="ページのタイプ" />
+        <meta property="og:description" content="記事の抜粋" />
+        <meta property="og:image" content="画像のURL" />
+        <meta property="og:site_name" content="サイト名" />
+        <meta property="og:locale" content="ja_JP" />
+        <meta property="fb:app_id" content="appIDを入力" />
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <body>
@@ -133,7 +145,7 @@ export default function Home({ events }) {
                       <Image src='/images/ayaka_ueda.jpeg' width={300} height={300} className='object-center object-cover rounded-full h-36 w-36' />
                     </div>
                     <div class="text-center">
-                      <p class="text-xl text-gray-900 font-bold mb-2">上田 絢香</p>
+                      <p class="text-xl text-gray-900 font-bold mb-2">上田 絢加</p>
                       <p class="text-xs text-gray-900 font-normal">スカイランニング界トップアスリート</p>
                       <p class="text-xs text-gray-900 font-normal">「私はスキーモで苦手な登りを克服しました！！」</p>
                       <p class="text-xs text-gray-900 font-normal">2021年スカイランニング世界選手権日本代表</p>
