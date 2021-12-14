@@ -96,7 +96,7 @@ export default function Rental() {
               <h2 class="border-b pb-1 mb-5 font-bold text-xl">ポール</h2>
               <div class="grid gap-4 grid-cols-1 sm:grid-cols-2">
                 <div class="w-full text-center">
-                  <Image src='/images/gear_boot.jpg' width={200} height={200} className='rounded-lg' />
+                  <Image src='/images/gear_pole.jpg' width={200} height={200} className='rounded-lg' />
                 </div>
                 <div>
                   <table class="table-auto mx-auto w-full mb-5 sm:mt-4">
