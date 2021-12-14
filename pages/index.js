@@ -63,7 +63,7 @@ export default function Home({ events }) {
               </>
             ) : (
               <>
-                <div className="w-full p-20 text-center text-2xl font-bold rounded-md">Coming Soon</div>
+                <div className="w-full py-20 text-center text-2xl font-bold rounded-md">Coming Soon</div>
                 <div className='mt-8 text-center'>
                   <a href="https://moshicom.com/search/?s=3&keyword=&event_start_date=&event_end_date=2021-12-01&entry_status=no&except_eventup=no&scale=0&day_entry=no&measurement=no&user_id=255516&search_type=1&recommend_event=true&recommend_course=true&recommend_facility=true&mode=1&l=20&o=0&m=1" target="_blank" class="inline-block py-2 text-white bg-gray-900 px-7 hover:bg-gray-800 rounded-lg">過去のイベントを見る</a>
                 </div>
