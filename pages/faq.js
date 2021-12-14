@@ -1,16 +1,13 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Link from 'next/link'
+
 import { Navbar } from '../components/Navbar'
 import { Footer } from '../components/Footer'
-import Link from 'next/link'
+import { NextSeo } from 'next-seo'
 
 export default function Contact() {
   return (
     <>
-      <Head>
-        <title>KATASHINA SKIMO CAMP | よくある質問</title>
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
+      <NextSeo title='よくある質問' description='よくある質問を紹介します。片品スキーモキャンプのイベント一覧。片品村の豊富な積雪、パウダースノーでスキーモを楽しみませんか？スキーモとはスキーマウンテニアリング(Ski Mountaineering=山岳スキー)の略です。スキーモは雪上のトレラン・スカイランです。シールと呼ばれる滑り止めを板の裏に貼り雪山を登り、シールを剥がして降ります。初めての方でもぜひチャレンジしてみてください。'/>
       <body>
         <Navbar />
         <main className='min-h-screen'>

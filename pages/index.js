@@ -1,29 +1,15 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+
 import { Navbar } from '../components/Navbar'
 import { Footer } from '../components/Footer'
 import { client } from '../libs/client'
+import { NextSeo } from 'next-seo'
 
 export default function Home({ events }) {
   return (
     <>
-      <Head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <title>ホーム | KATASHINA SKIMO CAMP</title>
-        <meta name="description" content="ページの内容を表す文章" />
-        <meta property="og:url" content="ページのURL" />
-        <meta property="og:title" content="ページのタイトル" />
-        <meta property="og:type" content="ページのタイプ" />
-        <meta property="og:description" content="記事の抜粋" />
-        <meta property="og:image" content="画像のURL" />
-        <meta property="og:site_name" content="サイト名" />
-        <meta property="og:locale" content="ja_JP" />
-        <meta property="fb:app_id" content="appIDを入力" />
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
+      <NextSeo title='ホーム' />
       <body>
         <Navbar />
         <main className='min-h-screen'>
@@ -95,11 +81,11 @@ export default function Home({ events }) {
                 </div>
                 <div className='p-8'>
                   <p className='mb-6'>最新のギア！国内最軽量！をご用意しています。</p>
-                  <p>■スキーセット（スキー、ブーツ、ポール、シール）</p>
-                  <p>¥13,500（税込、2日間）</p>
-                  <p className='mb-6'>¥7,150（税込、1日間）</p>
-                  <p className='mb-6'>■専用ヘルメット ¥1,000（税込）</p>
-                  <p>■専用ザック ¥1,000（税込）</p>
+                  <p>■スキーセット</p>
+                  <p>¥13,000（税込、2日間）</p>
+                  <p className='mb-6'>¥8,000（税込、1日間）</p>
+                  <p className='mb-6'>その他ザックやヘルメットのレンタルあり</p>
+                  {/* <p>■専用ザック ¥500（税込）</p> */}
                 </div>
               </div>
             </div>

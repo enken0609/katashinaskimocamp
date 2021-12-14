@@ -1,16 +1,14 @@
-import Head from 'next/head'
 import Image from 'next/image'
+
 import { Navbar } from '../components/Navbar'
 import { Footer } from '../components/Footer'
 import { client } from '../libs/client'
+import { NextSeo } from 'next-seo'
 
 export default function Events({ events }) {
   return (
     <>
-      <Head>
-        <title>KATASHINA SKIMO CAMP | イベント一覧</title>
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
+      <NextSeo title='イベント一覧' description='片品スキーモキャンプのイベント一覧。片品村の豊富な積雪、パウダースノーでスキーモを楽しみませんか？スキーモとはスキーマウンテニアリング(Ski Mountaineering=山岳スキー)の略です。スキーモは雪上のトレラン・スカイランです。シールと呼ばれる滑り止めを板の裏に貼り雪山を登り、シールを剥がして降ります。初めての方でもぜひチャレンジしてみてください。' />
       <body>
         <Navbar />
         <main className='min-h-screen'>
