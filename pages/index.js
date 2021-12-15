@@ -104,7 +104,7 @@ export default function Home({ events }) {
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   <div class="bg-white w-full shadow-lg rounded-lg p-12 flex flex-col justify-center items-center">
                     <div class="mb-8">
-                      <Image src='/images/kazuakihoshino.jpeg' width={300} height={300} className='object-center object-cover rounded-full h-36 w-36' />
+                      <Image src='/images/kazuakihoshino.jpg' width={300} height={300} className='object-center object-cover rounded-full h-36 w-36' />
                     </div>
                     <div class="text-center">
                       <p class="text-xl text-gray-900 font-bold mb-2">星野 和昭</p>
@@ -128,7 +128,7 @@ export default function Home({ events }) {
                   </div>
                   <div class="bg-white w-full shadow-lg rounded-lg p-12 flex flex-col justify-center items-center">
                     <div class="mb-8">
-                      <Image src='/images/ayaka_ueda.jpeg' width={300} height={300} className='object-center object-cover rounded-full h-36 w-36' />
+                      <Image src='/images/ayaka_ueda.jpg' width={300} height={300} className='object-center object-cover rounded-full h-36 w-36' />
                     </div>
                     <div class="text-center">
                       <p class="text-xl text-gray-900 font-bold mb-2">上田 絢加</p>
@@ -191,6 +191,45 @@ export default function Home({ events }) {
                 <Image src='/images/gallery_5.jpg' width={300} height={250} className='rounded-lg' />
                 <Image src='/images/gallery_8.jpg' width={300} height={250} className='rounded-lg' />
                 <Image src='/images/gallery_2.jpg' width={300} height={250} className='rounded-lg' />
+              </div>
+            </div>
+          </section>
+          <section class="gallery mb-8 p-10">
+            <div class="w-full mb-6">
+              <h2 class="text-2xl font-bold leading-7 text-gray-900 text-center sm:text-3xl sm:truncate">Supported By</h2>
+            </div>
+            <div class="w-full">
+              <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+                <div class="m-4 text-center hover:shadow-lg transition duration-300">
+                  <a href='https://athletune.com/' target="_blank">
+                    <Image src='/images/banner_athletune.jpg' width={250} height={250} className='rounded-lg' />
+                  </a>
+                </div>
+                <div class="m-4 text-center hover:shadow-lg transition duration-300">
+                  <a href='https://www.miyakosports.co.jp/brand/atk/' target="_blank">
+                    <Image src='/images/banner_atk.jpg' width={250} height={250} className='rounded-lg' />
+                  </a>
+                </div>
+                <div class="m-4 text-center hover:shadow-lg transition duration-300">
+                  <a href='https://atomicsnow.jp/' target="_blank">
+                    <Image src='/images/banner_atomic.jpg' width={250} height={250} className='rounded-lg' />
+                  </a>
+                </div>
+                <div class="m-4 text-center hover:shadow-lg transition duration-300">
+                  <a href='https://www.caravan-web.com/brand/camp-cassin/' target="_blank">
+                    <Image src='/images/banner_camp.jpg' width={250} height={250} className='rounded-lg' />
+                  </a>
+                </div>
+                <div class="m-4 text-center hover:shadow-lg transition duration-300">
+                  <a href='https://www.new-hale.com/' target="_blank">
+                    <Image src='/images/banner_newhale.jpg' width={250} height={250} className='rounded-lg' />
+                  </a>
+                </div>
+                <div class="m-4 text-center hover:shadow-lg transition duration-300">
+                  <a href='https://www.caravan-web.com/brand/leki/' target="_blank">
+                    <Image src='/images/banner_leki.jpg' width={250} height={250} className='rounded-lg' />
+                  </a>
+                </div>
               </div>
             </div>
           </section>
