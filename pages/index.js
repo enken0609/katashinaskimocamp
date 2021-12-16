@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Head from 'next/head'
 
 import { Navbar } from '../components/Navbar'
 import { Footer } from '../components/Footer'
@@ -10,6 +11,9 @@ export default function Home({ events }) {
   return (
     <>
       <NextSeo title='ホーム' />
+      <Head>
+        <meta name="google-site-verification" content={process.env.NEXT_PUBLIC_GOOGLE_SEARCH_CONSOLE_TAG}></meta>
+      </Head>
       <body>
         <Navbar />
         <main className='min-h-screen'>

@@ -24,12 +24,6 @@ function MyApp({ Component, pageProps }) {
               }
           ],
         }}
-        additionalMetaTags={[
-          {
-            name: "google-site-verification",
-            content: "WNvbz3zLdTSEl6Zlsw1oqmdJJZshUSrWXz5joPC5VcU"
-          }
-        ]}
         />
       <Component {...pageProps} />
     </>
