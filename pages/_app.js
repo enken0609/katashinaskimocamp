@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
           url: 'https://katashinaskimocamp.com',
           images: [
               {
-                url: 'https://katashinaskimocamp.com/_next/image?url=%2Fimages%2Fksc_mv.jpg&w=3840&q=75',
+                url: 'https://katashinaskimocamp.com/_next/image?url=%2Fimages%2Flogo.jpg&w=3840&q=75',
                 width: 700,
                 height: 400,
                 alt: 'katashina skimo camp',

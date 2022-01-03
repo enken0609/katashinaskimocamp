@@ -10,7 +10,7 @@ import { NextSeo } from 'next-seo'
 export default function Home({ events }) {
   return (
     <>
-      <NextSeo title='ホーム' />
+      <NextSeo />
       <Head>
         <meta name="google-site-verification" content={process.env.NEXT_PUBLIC_GOOGLE_SEARCH_CONSOLE_TAG}></meta>
       </Head>
@@ -203,7 +203,7 @@ export default function Home({ events }) {
               <h2 class="text-2xl font-bold leading-7 text-gray-900 text-center sm:text-3xl sm:truncate">Supported By</h2>
             </div>
             <div class="w-full">
-              <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+              <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-3">
                 <div class="m-4 text-center hover:shadow-lg transition duration-300">
                   <a href='https://athletune.com/' target="_blank">
                     <Image src='/images/banner_athletune.jpg' width={250} height={250} className='rounded-lg' />
@@ -274,8 +274,8 @@ export default function Home({ events }) {
 }
 
 export const getStaticProps = async () => {
-  const data = await client.get({ endpoint: "events"});
-
+  const data = await client.get({ endpoint: "events?limit=6"});
+  console.log(data.contents)
   return {
     props: {
       events: data.contents,
