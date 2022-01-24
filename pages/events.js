@@ -13,6 +13,22 @@ export default function Events({ events }) {
         <Navbar />
         <main className='min-h-screen'>
           <h1 className="bg-gray-100 p-20 md:p-32 text-center text-2xl md:text-3xl font-bold">イベント一覧</h1>
+          <section className='events p-4 md:pt-10 md:px-10'>
+            <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5'>
+              <div className='p-3 border-b md:border-b-0 md:border-r'>
+                <h2 className='font-bold text-lg text-center mb-4'><span className='border-b-4 border-red-500 pb-1'>TRIAL</span></h2>
+                <p className='text-sm mb-2'>ワンデーでスキーモを試せちゃうお得なプランです。とりあえずスキーモを試したい！って思う人にオススメです。プチツーリングも実施します。みんなでスキーモ楽しみましょう！</p>
+              </div>
+              <div className='p-3 border-b md:border-b-0 md:border-r'>
+                <h2 className='font-bold text-lg text-center mb-4'><span className='border-b-4 border-red-500 pb-1'>BASIC</span></h2>
+                <p className='text-sm mb-2'>その名の通りSKIMOの基本を学び、楽しさを体感してもらいます。ウィンタースポーツは体力ももちろん必要なのですが、技術がとても大切です。山にあまり入りにくい1、2月の厳冬期を利用して、麓で技術を高めることを目的したプランです。</p>
+              </div>
+              <div className='p-3'>
+                <h2 className='font-bold text-lg text-center mb-4'><span className='border-b-4 border-red-500 pb-1'>QUEST</span></h2>
+                <p className='text-sm mb-2'>BASICで身につけた技術で天上の楽園と呼ばれるアヤメ平目指します！！上級バックカントリーとまでは行きませんが、十分な絶景が見られます。ゲレンデスキーがある程度できる人向けのプランなので、BASICで技術を磨いてこちらのプランに挑戦するのがおすすめです。</p>
+              </div>
+            </div>
+          </section>
           <section className='events mb-8 p-4 md:p-10'>
             {events.length > 0 ? (
               <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5'>

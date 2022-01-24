@@ -237,16 +237,6 @@ export default function Home({ events }) {
               </div>
             </div>
           </section>
-          {/* <section class="gallery mb-8 p-10">
-            <div class="w-full mb-6">
-              <h2 class="text-2xl font-bold leading-7 text-gray-900 text-center sm:text-3xl sm:truncate">スポンサー</h2>
-            </div>
-            <div class="w-full">
-              <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-
-              </div>
-            </div>
-          </section> */}
           <section class="gallery mb-8 p-10">
             <div class="w-full mb-6">
               <h2 class="text-2xl font-bold leading-7 text-gray-900 text-center sm:text-3xl sm:truncate">SNS</h2>
@@ -274,11 +264,17 @@ export default function Home({ events }) {
 }
 
 export const getStaticProps = async () => {
-  const data = await client.get({ endpoint: "events?limit=6"});
-  console.log(data.contents)
+  const data = await client.get({ endpoint: "events?limit=3"});
+  let filterData = [];
+  data.contents.forEach(function(e) {
+    console.log(e.status[0])
+    if (e.status[0] == '開催前') {
+      filterData.push(e)
+    }
+  })
   return {
     props: {
-      events: data.contents,
+      events: filterData,
     }
   }
 }
