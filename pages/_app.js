@@ -1,7 +1,14 @@
 import 'tailwindcss/tailwind.css'
 import { DefaultSeo } from 'next-seo';
 
+import React from 'react'
+import usePageView from '../hooks/usePageView'
+import GoogleAnalytics from '../components/GoogleAnalytics'
+
 function MyApp({ Component, pageProps }) {
+
+  usePageView()
+
   return (
     <>
       <DefaultSeo
@@ -25,6 +32,7 @@ function MyApp({ Component, pageProps }) {
           ],
         }}
         />
+      <GoogleAnalytics />
       <Component {...pageProps} />
     </>
   )
