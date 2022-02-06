@@ -55,6 +55,11 @@ export const Navbar = () => {
                 レンタル
               </a>
             </Link>
+            <Link href='/private-lessons'>
+              <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white text-sm font-bold items-center justify-center mr-4 hover:bg-gray-800 hover:text-white '>
+                プライベートレッスン
+              </a>
+            </Link>
             <Link href='/faq'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white text-sm font-bold items-center justify-center mr-4 hover:bg-gray-800 hover:text-white'>
                 よくある質問

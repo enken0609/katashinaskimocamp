@@ -1,5 +1,6 @@
 import 'tailwindcss/tailwind.css'
 import { DefaultSeo } from 'next-seo';
+import NextNProgress from 'nextjs-progressbar';
 
 import React from 'react'
 import usePageView from '../hooks/usePageView'
@@ -33,6 +34,14 @@ function MyApp({ Component, pageProps }) {
         }}
         />
       <GoogleAnalytics />
+      <NextNProgress
+        color="#ee1a41"
+        startPosition={0.3}
+        stopDelayMs={200}
+        height={3}
+        showOnShallow={true}
+        options={{ showSpinner: false }}
+      />
       <Component {...pageProps} />
     </>
   )
