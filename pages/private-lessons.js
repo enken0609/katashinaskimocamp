@@ -183,7 +183,7 @@ export default function Rental() {
                     <Image src='/images/private-lesson/hotaka_1.jpg' width={600} height={400} className='rounded-lg' />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image src='/images/private-lesson/hotaka_4.jpg' width={600} height={400} className='rounded-lg' />
+                    <Image src='/images/private-lesson/hotaka_5.jpg' width={600} height={400} className='rounded-lg' />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image src='/images/private-lesson/hotaka_2.jpg' width={600} height={400} className='rounded-lg' />
