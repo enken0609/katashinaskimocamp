@@ -13,7 +13,7 @@ import { Pagination } from "swiper";
 export default function Rental() {
   return (
     <>
-      <NextSeo title='レンタル' description='片品スキーモキャンプではスキーモの道具をレンタルしております。手ぶらでの参加OK！片品村の豊富な積雪、パウダースノーでスキーモを楽しみませんか？スキーモとはスキーマウンテニアリング(Ski Mountaineering=山岳スキー)の略です。スキーモは雪上のトレラン・スカイランです。シールと呼ばれる滑り止めを板の裏に貼り雪山を登り、シールを剥がして降ります。初めての方でもぜひチャレンジしてみてください。' />
+      <NextSeo title='プライベートレッスン' description='片品スキーモキャンプのプライベートレッスン。週末の予定が合わない方や、個人的にじっくり教えてもらいたいという方向けです。片品村の豊富な積雪、パウダースノーでスキーモを楽しみませんか？スキーモとはスキーマウンテニアリング(Ski Mountaineering=山岳スキー)の略です。スキーモは雪上のトレラン・スカイランです。シールと呼ばれる滑り止めを板の裏に貼り雪山を登り、シールを剥がして降ります。初めての方でもぜひチャレンジしてみてください。' />
       <body>
         <Navbar />
         <main className='min-h-screen'>
@@ -22,7 +22,7 @@ export default function Rental() {
             <div className='w-full md:w-4/5 mx-auto py-5 px-2'>
               <p class="mb-4 leading-relaxed text-sm md:text-base">
                 週末の予定が合わない方や、個人的にじっくり教えてもらいたいという方に向けてプライベートプランもご用意しております。<br/>
-                プランの内容はあくまで参考となります。参加者のレベルに合わせて対応させていただきますので、下記メールアドレスか<a href="https://forms.gle/ErbW5rLC1JV6fyBM7" class="underline text-blue-400">こちら</a>お気軽にお問い合わせください。<br/>
+                プランの内容はあくまで参考となります。参加者のレベルに合わせて対応させていただきますので、下記メールアドレスか<a href="https://forms.gle/ErbW5rLC1JV6fyBM7" class="underline text-blue-400">こちら</a>からお気軽にお問い合わせください。<br/>
                 ※レンタル料金は別途かかります。
               </p>
               <p>Mail：<a href="mailto:katashina.skimo@gmail.com?subject=プレイベートレッスンについて" class="underline text-blue-400">katashina.skimo@gmail.com</a></p>
