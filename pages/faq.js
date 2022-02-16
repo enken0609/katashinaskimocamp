@@ -11,7 +11,7 @@ export default function Contact() {
       <body>
         <Navbar />
         <main className='min-h-screen'>
-        <h1 className="bg-gray-100 p-20 md:p-32 text-center text-2xl md:text-3xl font-bold">よくある質問</h1>
+        <h1 className="bg-gray-100 py-20 md:p-32 text-center text-2xl md:text-3xl font-bold">よくある質問</h1>
           <section className='events mb-8 p-4 md:p-10'>
             <div className='w-full mx-auto'>
               <div class="w-full md:w-4/5 shadow-lg p-4 md:p-10 mx-auto">

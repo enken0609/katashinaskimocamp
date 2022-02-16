@@ -11,7 +11,7 @@ export default function Contact() {
       <body>
         <Navbar />
         <main className='min-h-screen'>
-        <h1 className="bg-gray-100 p-20 md:p-32 text-center text-2xl md:text-3xl font-bold">フォト</h1>
+        <h1 className="bg-gray-100 py-20 md:p-32 text-center text-2xl md:text-3xl font-bold">フォト</h1>
           <section className='events mb-8 p-4 md:p-10'>
             <div class='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5'>
               <a href='https://photos.app.goo.gl/vmiHVrixxrchLTue6' target="_blank">

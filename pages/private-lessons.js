@@ -17,11 +17,11 @@ export default function Rental() {
       <body>
         <Navbar />
         <main className='min-h-screen'>
-        <h1 className="bg-gray-100 p-20 md:p-32 text-center text-2xl md:text-3xl font-bold">プライベートレッスン</h1>
+        <h1 className="bg-gray-100 py-20 md:p-32 text-center text-2xl md:text-3xl font-bold">プライベートレッスン</h1>
           <section className='events mb-8 p-4 md:p-10'>
             <div className='w-full md:w-4/5 mx-auto py-5 px-2'>
               <p class="mb-4 leading-relaxed text-sm md:text-base">
-                個人的にじっくり教えてもらいたいという方に向けて平日限定のプライベートプランもご用意しております。<br/>
+                個人的にじっくり教えてもらいたいという方に向けて平日限定のプライベートプランもご用意しております。※土日も要相談<br/>
                 プランの内容はあくまで参考となります。参加者のレベルに合わせて対応させていただきますので、下記メールアドレスか<a href="https://forms.gle/ErbW5rLC1JV6fyBM7" class="underline text-blue-400">こちら</a>からお気軽にお問い合わせください。<br/>
                 ※レンタル料金は別途かかります。
               </p>

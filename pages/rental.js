@@ -11,7 +11,7 @@ export default function Rental() {
       <body>
         <Navbar />
         <main className='min-h-screen'>
-        <h1 className="bg-gray-100 p-20 md:p-32 text-center text-2xl md:text-3xl font-bold">レンタル</h1>
+        <h1 className="bg-gray-100 py-20 md:p-32 text-center text-2xl md:text-3xl font-bold">レンタル</h1>
           <section className='events mb-8 p-4 md:p-10'>
             <div className='w-full md:w-4/5 mx-auto py-5 px-2'>
               <p>最新のギア！国内最軽量！をご用意しています。</p>
