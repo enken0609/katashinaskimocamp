@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         '20220102-basic1': "url('/images/20220102-basic1.jpg')",
+        '20220212-basic2': "url('/images/20220212-basic2.jpg')",
       }
     },
   },

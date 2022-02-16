@@ -21,7 +21,7 @@ export default function Rental() {
           <section className='events mb-8 p-4 md:p-10'>
             <div className='w-full md:w-4/5 mx-auto py-5 px-2'>
               <p class="mb-4 leading-relaxed text-sm md:text-base">
-                週末の予定が合わない方や、個人的にじっくり教えてもらいたいという方に向けてプライベートプランもご用意しております。<br/>
+                個人的にじっくり教えてもらいたいという方に向けて平日限定のプライベートプランもご用意しております。<br/>
                 プランの内容はあくまで参考となります。参加者のレベルに合わせて対応させていただきますので、下記メールアドレスか<a href="https://forms.gle/ErbW5rLC1JV6fyBM7" class="underline text-blue-400">こちら</a>からお気軽にお問い合わせください。<br/>
                 ※レンタル料金は別途かかります。
               </p>
