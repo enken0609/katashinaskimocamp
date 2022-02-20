@@ -30,7 +30,7 @@ export default function Contact() {
                   </div>
                 </div>
               </a>
-              <a href='https://photos.app.goo.gl/s2iZcsLeKR6JpsVc8' target="_blank">
+              <a href='https://photos.app.goo.gl/E4t4xGGczJHV7sKY6' target="_blank">
                 <div class="bg-20220220-trial w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out">
                   <div class="px-4 sm:px-6 lg:px-4 flex justify-center items-center grid py-16">
                     <h2 class="text-center text-white text-3xl font-bold w-full mb-4">2022/2/20<br/>TRIAL</h2>
