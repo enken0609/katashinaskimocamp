@@ -9,7 +9,7 @@ export const Navbar = () => {
           <div class="text-center">
             <h1 class="w-1/3 mx-auto">
               <a className='inline-flex items-center p-2 hover:cursor-pointer'>
-                <Image src="/../public/images/race/hsc_logo.png" width={200} height={95} />
+                <Image src="/images/race/hsc_logo.png" width={200} height={95} />
               </a>
             </h1>
           </div>
