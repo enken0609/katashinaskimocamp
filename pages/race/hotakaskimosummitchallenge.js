@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 import { Navbar } from '../../components/NavbarRace'
 import { Footer } from '../../components/Footer'
@@ -11,7 +12,18 @@ import "swiper/css/pagination";
 export default function Rental() {
   return (
     <>
-      <NextSeo title='HOTAKA SKIMO SUMMIT CHALLENGE' description='山岳スキーが２０２６年ミラノコルティナ冬季オリンピックに追加種目として選ばれました。群馬県内としても山岳スキーの開催は初の試みです。今後の関東エリアでの山岳スキーの発展の大きな一歩となります。都市部から近い関東最大級の山域を誇る片品村を県外、日本にとどまらず、世界に発信できるレースです。片品村の豊富な積雪、パウダースノーでスキーモを楽しみませんか？スキーモとはスキーマウンテニアリング(Ski Mountaineering=山岳スキー)の略です。スキーモは雪上のトレラン・スカイランです。シールと呼ばれる滑り止めを板の裏に貼り雪山を登り、シールを剥がして降ります。初めての方でもぜひチャレンジしてみてください。' />
+      <NextSeo
+      title='HOTAKA SKIMO SUMMIT CHALLENGE'
+      description='山岳スキーが２０２６年ミラノコルティナ冬季オリンピックに追加種目として選ばれました。群馬県内としても山岳スキーの開催は初の試みです。今後の関東エリアでの山岳スキーの発展の大きな一歩となります。都市部から近い関東最大級の山域を誇る片品村を県外、日本にとどまらず、世界に発信できるレースです。片品村の豊富な積雪、パウダースノーでスキーモを楽しみませんか？スキーモとはスキーマウンテニアリング(Ski Mountaineering=山岳スキー)の略です。スキーモは雪上のトレラン・スカイランです。シールと呼ばれる滑り止めを板の裏に貼り雪山を登り、シールを剥がして降ります。初めての方でもぜひチャレンジしてみてください。'
+      openGraph={{
+            title: 'HOTAKA SKIMO SUMMIT CHALLENGE',
+            description: '山岳スキーが２０２６年ミラノコルティナ冬季オリンピックに追加種目として選ばれました。群馬県内としても山岳スキーの開催は初の試みです。今後の関東エリアでの山岳スキーの発展の大きな一歩となります。都市部から近い関東最大級の山域を誇る片品村を県外、日本にとどまらず、世界に発信できるレースです。片品村の豊富な積雪、パウダースノーでスキーモを楽しみませんか？スキーモとはスキーマウンテニアリング(Ski Mountaineering=山岳スキー)の略です。スキーモは雪上のトレラン・スカイランです。シールと呼ばれる滑り止めを板の裏に貼り雪山を登り、シールを剥がして降ります。初めての方でもぜひチャレンジしてみてください。',
+            url: 'https://katashinaskimocamp.com/race/hotakaskimosummitchallenge',
+            images: [{
+              url: 'https://katashinaskimocamp.com/_next/image?url=%2Fimages%2Frace%2Fmv_hotaka.jpg&w=3840&q=75'
+            }]
+          }}
+        />
       <body>
         <Navbar />
         <main className='min-h-screen'>
@@ -577,6 +589,11 @@ export default function Rental() {
                   </ul>
                 </dd>
               </dl>
+            </div>
+            <div className='mt-8 text-center'>
+              <Link href="/">
+              <a target="_blank" class="inline-block py-2 text-white bg-gray-900 px-7 hover:bg-gray-800 rounded-lg">SKIMO CAMPホームへ</a>
+              </Link>
             </div>
           </section>
         </main>
