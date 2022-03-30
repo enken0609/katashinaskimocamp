@@ -43,6 +43,15 @@ export default function Rental() {
                 山岳スキーが２０２６年ミラノコルティナ冬季オリンピックに追加種目として選ばれました。群馬県内としても山岳スキーの開催は初の試みです。今後の関東エリアでの山岳スキーの発展の大きな一歩となります。都市部から近い関東最大級の山域を誇る片品村を県外、日本にとどまらず、世界に発信できるレースです。
               </p>
             </div>
+            <div class="text-center my-8">
+              <a href="https://drive.google.com/file/d/1yrvN2S5HwxnBzdUzh7vNhXk6eGE4srFO/view?usp=sharing" class="bg-hotaka-900 text-white px-4 py-2 rounded hover:bg-hotaka-800">スタートリスト</a>
+            </div>
+            <div class="text-center my-8">
+              <a href="https://drive.google.com/file/d/1__WIv7jXd7SF8fEMDOY1NsIWrh1NxVPv/view?usp=sharing" class="bg-hotaka-900 text-white px-4 py-2 rounded hover:bg-hotaka-800">Sprint リザルト</a>
+            </div>
+            <div class="text-center my-8">
+              <a href="https://drive.google.com/file/d/1exvm9eDYe2cGXn07K094GbNVOIzuoGJ0/view?usp=sharing" class="bg-hotaka-900 text-white px-4 py-2 rounded hover:bg-hotaka-800">Individual リザルト</a>
+            </div>
             <div class='my-8 w-full md:w-4/5 mx-auto'>
               <h2 id="summary" class="border-b-2 border-hotaka-900 pb-1 mb-4 font-bold md:text-xl sm:text-base">大会概要</h2>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
