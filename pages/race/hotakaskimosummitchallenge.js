@@ -52,6 +52,43 @@ export default function Rental() {
             <div class="text-center my-8">
               <a href="https://drive.google.com/file/d/1exvm9eDYe2cGXn07K094GbNVOIzuoGJ0/view?usp=sharing" class="bg-hotaka-900 text-white px-4 py-2 rounded hover:bg-hotaka-800">Individual リザルト</a>
             </div>
+            <div class='my-8 w-full md:w-4/5 mx-auto bg-hotaka-50 p-10 rounded-lg'>
+              <h2 class="p-6 mb-4 font-bold md:text-xl sm:text-base text-center text-hotaka-900">大会公式フォト</h2>
+              <div class='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5'>
+                <a href='https://photos.app.goo.gl/2843Pz3ktVpVqJqb7' target="_blank">
+                  <div class="bg-20220402-spr-kurahashi w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out p-4">
+                    <div class="px-4 sm:px-6 lg:px-4 flex justify-center items-center grid py-16">
+                      <h2 class="text-center text-white text-xl font-bold w-full mb-4">Sprint<br/>倉橋 俊行</h2>
+                      <p class="border w-full p-3 text-white text-center font-bold">フォトギャラリー</p>
+                    </div>
+                  </div>
+                </a>
+                <a href='https://photos.app.goo.gl/bpHjnQ1t1cQQGC1V8' target="_blank">
+                  <div class="bg-20220402-spr-sekiguchi w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out p-4">
+                    <div class="px-4 sm:px-6 lg:px-4 flex justify-center items-center grid py-16">
+                      <h2 class="text-center text-white text-xl font-bold w-full mb-4">Sprint<br/>関口 祐司</h2>
+                      <p class="border w-full p-3 text-white text-center font-bold">フォトギャラリー</p>
+                    </div>
+                  </div>
+                </a>
+                <a href='https://photos.app.goo.gl/cioLLzak5UWEQMPS7' target="_blank">
+                  <div class="bg-20220403-ind-kurahashi w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out p-4">
+                    <div class="px-4 sm:px-6 lg:px-4 flex justify-center items-center grid py-16">
+                      <h2 class="text-center text-white text-xl font-bold w-full mb-4">Individual<br/>倉橋 俊行</h2>
+                      <p class="border w-full p-3 text-white text-center font-bold">フォトギャラリー</p>
+                    </div>
+                  </div>
+                </a>
+                <a href='https://photos.app.goo.gl/5gRPL9xFKqtRdY9VA' target="_blank">
+                  <div class="bg-20220403-ind-sekiguchi w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out p-4">
+                    <div class="px-4 sm:px-6 lg:px-4 flex justify-center items-center grid py-16">
+                      <h2 class="text-center text-white text-xl font-bold w-full mb-4">Individual<br/>関口 祐司</h2>
+                      <p class="border w-full p-3 text-white text-center font-bold">フォトギャラリー</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
             <div class='my-8 w-full md:w-4/5 mx-auto'>
               <h2 id="summary" class="border-b-2 border-hotaka-900 pb-1 mb-4 font-bold md:text-xl sm:text-base">大会概要</h2>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
