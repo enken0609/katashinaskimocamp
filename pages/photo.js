@@ -41,7 +41,7 @@ export default function Contact() {
               <a href='https://photos.app.goo.gl/jBcoqGNJkLPrdywh9' target="_blank">
                 <div class="bg-20220416-quest2 w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out">
                   <div class="px-4 sm:px-6 lg:px-4 flex justify-center items-center grid py-16">
-                    <h2 class="text-center text-white text-3xl font-bold w-full mb-4">2022/4/16<br/>QUEST Vol.2</h2>
+                    <h2 class="text-center text-white text-3xl font-bold w-full mb-4">2022/4/16-4/17<br/>QUEST Vol.2</h2>
                     <p class="border w-full p-3 text-white text-center font-bold">フォトギャラリー</p>
                   </div>
                 </div>
