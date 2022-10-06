@@ -18,7 +18,7 @@ export default function Home({ events }) {
         <Navbar />
         <main className='min-h-screen'>
           <section className='p-8'>
-            <Image src="/images/ksc_mv.jpg" width={1920} height={1080} className='rounded-xl' />
+            <Image src="/images/ksc_taiken.png" width={1920} height={1080} className='rounded-xl' />
             <div className='text-center md:w-2/3 pt-8 mx-auto'>
               <h1 class="text-2xl md:text-5xl font-bold mb-2">KATASHINA SKIMO CAMP</h1>
               <p class="text-md md:text-3xl text-gray-500 mb-4">片品村で<span class="text-black font-bold">SKIMO</span>デビューしませんか？</p>
