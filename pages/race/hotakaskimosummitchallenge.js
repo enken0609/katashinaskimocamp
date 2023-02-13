@@ -33,9 +33,9 @@ export default function Rental() {
               <p class="mb-4 leading-relaxed text-sm md:text-base text-center text-hotaka-900">
                 夏は「SKYRUNNING」、冬は「SKIMO」で山頂を目指す<br />前武尊山が舞台のSKIMOレース
               </p>
-              <h1 className="mb-4 text-center text-2xl md:text-4xl font-bold text-hotaka-900">第1回 HOTAKA SKIMO SUMMIT CHALLENGE</h1>
+              <h1 className="mb-4 text-center text-2xl md:text-4xl font-bold text-hotaka-900">第2回 HOTAKA SKIMO SUMMIT CHALLENGE</h1>
               <p class="mb-4 leading-relaxed text-2xl md:text-3xl font-bold text-center text-hotaka-900">
-                2022 <span class="text-xl">/</span> 4 <span class="text-xl">/</span> 2(土) - 4 <span class="text-xl">/</span> 3(日)
+                2023 <span class="text-xl">/</span> 4 <span class="text-xl">/</span> 1(土) - 4 <span class="text-xl">/</span> 2(日)
               </p>
             </div>
             <div className='w-full md:w-4/5 mx-auto py-5 px-2'>
@@ -43,57 +43,14 @@ export default function Rental() {
                 山岳スキーが２０２６年ミラノコルティナ冬季オリンピックに追加種目として選ばれました。群馬県内としても山岳スキーの開催は初の試みです。今後の関東エリアでの山岳スキーの発展の大きな一歩となります。都市部から近い関東最大級の山域を誇る片品村を県外、日本にとどまらず、世界に発信できるレースです。
               </p>
             </div>
-            <div class="text-center my-8">
+            {/* <div class="text-center my-8">
               <a href="https://drive.google.com/file/d/1yrvN2S5HwxnBzdUzh7vNhXk6eGE4srFO/view?usp=sharing" class="bg-hotaka-900 text-white px-4 py-2 rounded hover:bg-hotaka-800">スタートリスト</a>
-            </div>
-            <div class="text-center my-8">
-              <a href="https://drive.google.com/file/d/1__WIv7jXd7SF8fEMDOY1NsIWrh1NxVPv/view?usp=sharing" class="bg-hotaka-900 text-white px-4 py-2 rounded hover:bg-hotaka-800">Sprint リザルト</a>
-            </div>
-            <div class="text-center my-8">
-              <a href="https://drive.google.com/file/d/1exvm9eDYe2cGXn07K094GbNVOIzuoGJ0/view?usp=sharing" class="bg-hotaka-900 text-white px-4 py-2 rounded hover:bg-hotaka-800">Individual リザルト</a>
-            </div>
-            <div class='my-8 w-full md:w-4/5 mx-auto bg-hotaka-50 p-10 rounded-lg'>
-              <h2 class="p-6 mb-4 font-bold md:text-xl sm:text-base text-center text-hotaka-900">大会公式フォト</h2>
-              <div class='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5'>
-                <a href='https://photos.app.goo.gl/2843Pz3ktVpVqJqb7' target="_blank">
-                  <div class="bg-20220402-spr-kurahashi w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out p-4">
-                    <div class="px-4 sm:px-6 lg:px-4 flex justify-center items-center grid py-16">
-                      <h2 class="text-center text-white text-xl font-bold w-full mb-4">Sprint<br/>倉橋 俊行</h2>
-                      <p class="border w-full p-3 text-white text-center font-bold">フォトギャラリー</p>
-                    </div>
-                  </div>
-                </a>
-                <a href='https://photos.app.goo.gl/bpHjnQ1t1cQQGC1V8' target="_blank">
-                  <div class="bg-20220402-spr-sekiguchi w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out p-4">
-                    <div class="px-4 sm:px-6 lg:px-4 flex justify-center items-center grid py-16">
-                      <h2 class="text-center text-white text-xl font-bold w-full mb-4">Sprint<br/>関口 祐司</h2>
-                      <p class="border w-full p-3 text-white text-center font-bold">フォトギャラリー</p>
-                    </div>
-                  </div>
-                </a>
-                <a href='https://photos.app.goo.gl/cioLLzak5UWEQMPS7' target="_blank">
-                  <div class="bg-20220403-ind-kurahashi w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out p-4">
-                    <div class="px-4 sm:px-6 lg:px-4 flex justify-center items-center grid py-16">
-                      <h2 class="text-center text-white text-xl font-bold w-full mb-4">Individual<br/>倉橋 俊行</h2>
-                      <p class="border w-full p-3 text-white text-center font-bold">フォトギャラリー</p>
-                    </div>
-                  </div>
-                </a>
-                <a href='https://photos.app.goo.gl/5gRPL9xFKqtRdY9VA' target="_blank">
-                  <div class="bg-20220403-ind-sekiguchi w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out p-4">
-                    <div class="px-4 sm:px-6 lg:px-4 flex justify-center items-center grid py-16">
-                      <h2 class="text-center text-white text-xl font-bold w-full mb-4">Individual<br/>関口 祐司</h2>
-                      <p class="border w-full p-3 text-white text-center font-bold">フォトギャラリー</p>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
+            </div> */}
             <div class='my-8 w-full md:w-4/5 mx-auto'>
               <h2 id="summary" class="border-b-2 border-hotaka-900 pb-1 mb-4 font-bold md:text-xl sm:text-base">大会概要</h2>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
                 <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">大会名称</dt>
-                <dd class="w-full sm:w-4/5 pb-2">第1回 HOTAKA SKIMO SUMMIT CHALLENGE</dd>
+                <dd class="w-full sm:w-4/5 pb-2">第2回 HOTAKA SKIMO SUMMIT CHALLENGE</dd>
               </dl>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
                 <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">主催</dt>
@@ -101,7 +58,7 @@ export default function Rental() {
               </dl>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
                 <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">後援</dt>
-                <dd class="w-full sm:w-4/5 pb-2">片品村、片品村教育委員会、片品村観光協会</dd>
+                <dd class="w-full sm:w-4/5 pb-2">片品村、片品村教育委員会、片品村観光協会、オグナほたかスキー場予定</dd>
               </dl>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
                 <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">主管</dt>
@@ -109,27 +66,23 @@ export default function Rental() {
               </dl>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
                 <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">協力</dt>
-                <dd class="w-full sm:w-4/5 pb-2">オグナほたかスキー場</dd>
+                <dd class="w-full sm:w-4/5 pb-2">日本山岳・スポーツクライミング協会</dd>
               </dl>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
                 <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">協賛</dt>
-                <dd class="w-full sm:w-4/5 pb-2">未定</dd>
+                <dd class="w-full sm:w-4/5 pb-2">片品村振興公社他予定</dd>
               </dl>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
                 <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">期日</dt>
-                <dd class="w-full sm:w-4/5 pb-2">2022年4月2日(金) ～ 4月3日(日)</dd>
+                <dd class="w-full sm:w-4/5 pb-2">2022年4月1日(土) ～ 4月2日(日)</dd>
               </dl>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
                 <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">会場</dt>
-                <dd class="w-full sm:w-4/5 pb-2">群馬県利根郡片品村花咲　オグナほたかスキー場周辺 </dd>
+                <dd class="w-full sm:w-4/5 pb-2">群馬県利根郡片品村花咲 オグナほたかスキー場周辺</dd>
               </dl>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
                 <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">競技規則</dt>
                 <dd class="w-full sm:w-4/5 pb-2">ISMF 山岳スキー大会開催規則による(一部異なる場合があります) </dd>
-              </dl>
-              <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
-                <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">COVID-19 対策</dt>
-                <dd class="w-full sm:w-4/5 pb-2">JMSCA COVID-19 大会開催運営がイドラインによる</dd>
               </dl>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
                 <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">競技プログラム</dt>
@@ -145,7 +98,7 @@ export default function Rental() {
                     </thead>
                     <tbody>
                       <tr>
-                        <td rowSpan={14} className='border text-sm text-center p-2'>4/2(土)</td>
+                        <td rowSpan={14} className='border text-sm text-center p-2'>4/1(土)</td>
                         <td class="border text-sm p-2">9:00~10:20</td>
                         <td class="border text-sm p-2">選手受付(スプリント種目参加者) センターハウス</td>
                       </tr>
@@ -159,50 +112,50 @@ export default function Rental() {
                       </tr>
                       <tr>
                         <td class="border text-sm p-2">11:30～12:30</td>
-                        <td class="border text-sm p-2">スプリント 予選レーススタート（予選）</td>
+                        <td class="border text-sm p-2">スプリント 予選レーススタート(予選)30 名未満の場合は変わる</td>
                       </tr>
                       <tr>
                         <td class="border text-sm p-2">13:00〜</td>
-                        <td class="border text-sm p-2">スプリント （準々決勝シニア男子/4組各組6名/各組3名準決勝へ）</td>
+                        <td class="border text-sm p-2">スプリント (準々決勝シニア男子/5 組各組 6 名/各組 2 名+2 名準決勝へ)</td>
                       </tr>
                       <tr>
                         <td class="border text-sm p-2">13:50~</td>
-                        <td class="border text-sm p-2">スプリント（準決勝シニア女子/２組各組6名/各組3名決勝へ）人数による</td>
+                        <td class="border text-sm p-2">スプリント(準決勝シニア女子/2組各組 6 名/各組 3 名決勝へ)人数による</td>
                       </tr>
                       <tr>
                         <td class="border text-sm p-2">14:10~</td>
-                        <td class="border text-sm p-2">スプリント（準決勝ジュニア・ユース男子準決勝/２組各組6名/各組3名決勝へ）人数による</td>
+                        <td class="border text-sm p-2">スプリント(準決勝ジュニア・ユース男子準決勝/2組各組 6 名/各組 3 名決勝へ)人数による</td>
                       </tr>
                       <tr>
                         <td class="border text-sm p-2">14:30~</td>
-                        <td class="border text-sm p-2">スプリント（準決勝ジュニア・ユース女子準決勝/２組各組6名/各組3名決勝へ）人数による</td>
+                        <td class="border text-sm p-2">スプリント(準決勝ジュニア・ユース女子準決勝/2組各組 6 名/各組 3 名決勝へ)人数による</td>
                       </tr>
                       <tr>
                         <td class="border text-sm p-2">14:50~</td>
-                        <td class="border text-sm p-2">スプリント （準々決勝シニア男子/２組各組6名/各組3名決勝へ）</td>
+                        <td class="border text-sm p-2">スプリント (準々決勝シニア男子/2組各組 6 名/各組 3 名決勝へ)</td>
                       </tr>
                       <tr>
                         <td class="border text-sm p-2">15:00~</td>
-                        <td class="border text-sm p-2">スプリント（決勝シニア女子決勝/6名）人数による</td>
+                        <td class="border text-sm p-2">スプリント(決勝ジュニア・ユース男子 6 名)人数による</td>
                       </tr>
                       <tr>
                         <td class="border text-sm p-2">15:10~</td>
-                        <td class="border text-sm p-2">スプリント（決勝ジュニア・ユース男子6名）人数による</td>
+                        <td class="border text-sm p-2">スプリント(決勝ジュニア・ユース女子 6 名)人数による</td>
                       </tr>
                       <tr>
                         <td class="border text-sm p-2">15:20~</td>
-                        <td class="border text-sm p-2">スプリント（決勝ジュニア・ユース女子6名）人数による</td>
+                        <td class="border text-sm p-2">スプリント(決勝シニア女子決勝/6 名)人数による</td>
                       </tr>
                       <tr>
                         <td class="border text-sm p-2">15:30~</td>
-                        <td class="border text-sm p-2">スプリント （決勝シニア男子/6名）</td>
+                        <td class="border text-sm p-2">スプリント (決勝シニア男子/6 名)</td>
                       </tr>
                       <tr>
                         <td class="border text-sm p-2">16:30〜</td>
                         <td class="border text-sm p-2">開会式・表彰式</td>
                       </tr>
                       <tr>
-                        <td rowSpan={5} className='border text-sm text-center p-2'>4/3(日)</td>
+                        <td rowSpan={5} className='border text-sm text-center p-2'>4/2(日)</td>
                         <td rowSpan={2} className='border text-sm p-2'>8:30〜</td>
                         <td rowSpan={2} className='border text-sm p-2'>選手受付(センターハウス)</td>
                       </tr>
@@ -213,7 +166,7 @@ export default function Rental() {
                         <td class="border text-sm p-2">スタートエリア移動 Move to the start area</td>
                       </tr>
                       <tr>
-                        <td class="border text-sm p-2">10:00～13:00</td>
+                        <td class="border text-sm p-2">10:00～14:00</td>
                         <td class="border text-sm p-2">インディヴィジュアル競技スタート Individual race Start</td>
                       </tr>
                       <tr>
@@ -242,13 +195,13 @@ export default function Rental() {
                       <td class="border text-sm p-2">ISMF国際ルールに沿ったコースでの競技</td>
                     </tr>
                     <tr>
-                      <td class="border text-sm p-2">シニア男女 （21歳以上） 2001年以前生</td>
+                      <td class="border text-sm p-2">シニア男女 （21歳以上） 2002年以前生</td>
                     </tr>
                     <tr>
-                      <td class="border text-sm p-2">ジュニア男女（19～20歳） 2002〜2003年生</td>
+                      <td class="border text-sm p-2">ジュニア男女（19～20歳） 2003〜2004年生</td>
                     </tr>
                     <tr>
-                      <td class="border text-sm p-2">ユース男女 （17～18歳） 2004〜2005年生</td>
+                      <td class="border text-sm p-2">ユース男女 （17～18歳） 2005〜2006年生</td>
                     </tr>
                     <tr>
                       <td class="border text-sm p-2">ショートコース</td>
@@ -256,7 +209,7 @@ export default function Rental() {
                     </tr>
                   </table>
                   </div>
-                  <span class="text-red-800 text-sm">※年齢基準は2021年12月31日での年齢でカウントします。 </span><br />
+                  <span class="text-red-800 text-sm">※年齢基準は2022年12月31日での年齢でカウントします。 </span><br />
                 </dd>
               </dl>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
@@ -267,39 +220,37 @@ export default function Rental() {
                     <thead>
                       <tr>
                         <th className='border text-sm bg-gray-100 p-2'>カテゴリー</th>
-                        <th className='border text-sm bg-gray-100 p-2 whitespace-nowrap'>4/2<br />スプリント</th>
+                        <th className='border text-sm bg-gray-100 p-2 whitespace-nowrap'>4/1<br />スプリント</th>
                         <th className='border text-sm bg-gray-100 p-2 whitespace-nowrap'>4/2<br />インディビジュアル</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <td class="border text-sm p-2 whitespace-nowrap">シニア男女</td>
-                        <td class="border text-sm p-2">4,000円</td>
+                        <td class="border text-sm p-2">5,000円</td>
                         <td class="border text-sm p-2">10,000円</td>
                       </tr>
                       <tr>
                         <td class="border text-sm p-2">ジュニア/ユース男女</td>
-                        <td class="border text-sm p-2">2,000円</td>
+                        <td class="border text-sm p-2">3,000円</td>
                         <td class="border text-sm p-2">5,000円</td>
                       </tr>
                       <tr>
                         <td class="border text-sm p-2">ショート(一般)男女</td>
-                        <td class="border text-sm p-2">4,000円</td>
-                        <td class="border text-sm p-2">6,000円</td>
+                        <td class="border text-sm p-2"></td>
+                        <td class="border text-sm p-2">7,000円</td>
                       </tr>
                       <tr>
                         <td class="border text-sm p-2">・ショート(18歳以下)男女</td>
-                        <td class="border text-sm p-2">2,000円</td>
+                        <td class="border text-sm p-2"></td>
                         <td class="border text-sm p-2">3,000円</td>
                       </tr>
                     </tbody>
                   </table>
                   </div>
                   <p class="text-sm leading-relaxed">
-                  ※1シニアの部は本格山岳地帯に入るため、過去に全日本インディビジュアルシニアコース(完走は問いません)に参加したことがある方のみの参加に限らせていただきます。<br />
-                  ※1シニアの部は本格山岳地帯に入るため、過去に全日本インディビジュアルシニアコース(完走は問いません)に参加したことがある方のみの参加に限らせていただきます。
+                  ※【インディビジュアル】シニアの部は本格山岳地帯に入るため、過去に全日本インディビジュアルシニアコース(完走は問いません)に参加したことがある方のみの参加に限らせていただきます。<br />
                   </p>
-                  <span class="text-sm">※18歳以下2021年4月1日現在の方は種目に関わらず１種目参加4,000円、２種目参加6,000円です。 </span><br />
                 </dd>
               </dl>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
@@ -331,7 +282,7 @@ export default function Rental() {
                       <td class="border text-sm p-2">ビンディング<span class="text-red-600">*</span></td>
                       <td class="border text-sm p-2">
                         <ul>
-                          <li>・2021/2022シーズンはスキーブレーキの使用を推奨します</li>
+                          <li>・2022/2023シーズンはスキーブレーキの使用を推奨します</li>
                           <li>・国際大会では必須となります。</li>
                           <li>・スキーとビンディングの 小重量 男子750g、女子700g</li>
                           <li>・ミックスビンディングの使用禁止(フロント、リアは同一メーカーであること)</li>
@@ -561,7 +512,7 @@ export default function Rental() {
                 <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">申し込み方法</dt>
                 <dd class="w-full sm:w-4/5 pb-2"><span class="mb-2">モシコムよりお申し込みください。</span><br />
                   <div class="mt-4">
-                    <a href="https://moshicom.com/66848/?fbclid=IwAR3OXPA0XzB_EqOhnbgpYE4tZ7CGyCcFjKt88Aq6NYpDmMfspn5bPwucu30" target="_blank" class="bg-white border border-hotaka-900 hover:bg-hotaka-900 hover:text-white text-hotaka-900 font-bold py-2 px-4 rounded-sm">
+                    <a href="https://moshicom.com/81189/" target="_blank" class="bg-white border border-hotaka-900 hover:bg-hotaka-900 hover:text-white text-hotaka-900 font-bold py-2 px-4 rounded-sm">
                       エントリー
                     </a>
                   </div>
@@ -569,14 +520,14 @@ export default function Rental() {
               </dl>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
                 <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">申込受付期間</dt>
-                <dd class="w-full sm:w-4/5 pb-2">3月6日(水)-3月20日(日)</dd>
+                <dd class="w-full sm:w-4/5 pb-2">2月12日(日)-3月19日(日)</dd>
               </dl>
               <h2 id="rental" class="border-b-2 border-hotaka-900 pt-4 pb-1 mb-4 font-bold md:text-xl sm:text-base">装備品レンタル</h2>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
                 <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">レンタル</dt>
                 <dd class="w-full sm:w-4/5 pb-2">
                   <ul>
-                    <li>KATASHINA SKIMO CAMP<br /> 担当：星野　https://katashinaskimocamp.com/. Mail katashina.skimo@gmail.com</li>
+                    <li>KATASHINA SKIMO CAMP<br /> 担当：星野　https://katashinaskimocamp.com/ <br /> Mail katashina.skimo@gmail.com</li>
                   </ul>
                 </dd>
               </dl>
@@ -584,7 +535,7 @@ export default function Rental() {
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
                 <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">宿泊</dt>
                 <dd class="w-full sm:w-4/5 pb-2">
-                  各自宿泊を手配お願いします。
+                  準備中
                 </dd>
               </dl>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
@@ -601,16 +552,6 @@ export default function Rental() {
                 </dd>
               </dl>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
-                <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">ドーピング検査</dt>
-                <dd class="w-full sm:w-4/5 pb-2">
-                  <ul>
-                    <li>・本競技会は、日本アンチ・ドーピング規程に基づくドーピング・コントロール対象大会です。</li>
-                    <li>・本競技会参加者(18歳未満の競技者を含む。以下同じ)は、競技会にエントリーした時点てで日本アンチ・ドーピング規程に従い、ドーピングコントロール手続の対象となることに同意したものとみなします。18歳未満の競技者については、本競技会への参加により親権者の同意を得たものとみなします。</li>
-                    <li>・本競技会に参加する 18 歳未満の競技者は親権者の署名した同意書を大会に持参し携帯して下さい。親権者の同意書フォームは日本アンチ・ドーピング機構(JADA)のウェブサイトからダウンロードできます。<br />同意書は<a href="https://www.playtruejapan.org/entry_img/u18_template_20201116.pdf" target="_blank" class="text-blue-400 underline">こちら</a></li>
-                  </ul>
-                </dd>
-              </dl>
-              <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
                 <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">返金</dt>
                 <dd class="w-full sm:w-4/5 pb-2">
                   お支払いいただいた費用は事情に寄らず返金できない場合がありますのでご了承ください。
@@ -622,19 +563,51 @@ export default function Rental() {
                   出場者の傷害保険は主催者側で付保しますが、競技中の事故に起因する傷害以外の疾病に対しては責任を負いませんのでご了承ください。
                 </dd>
               </dl>
-              <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
-                <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">新型コロナウイルス感染症感染拡大防止対策 </dt>
-                <dd class="w-full sm:w-4/5 pb-2">
-                  本大会への参加にあたって、選手・大会関係者の感染防止を図るため以下の項目についてご協力のほどお願い致します。
-                  <ul>
-                    <li>・大会1週間前からの健康チェックシートで行います。</li>
-                    <li>・接触確認アプリ「COCOA」への登録にご協力ください。登録の有無を当日会場にて確認します。</li>
-                    <li>・受付・大会当日、受付にてマスク着用の確認、体温測定、健康チェックシートの確認を行います。</li>
-                    <li>・健康チェックの未実施、および体調に次の症状がある場合、会場への入場を禁止します。</li>
-                    <li>・発熱(37.5度以上)、体調がよくない(発熱・咳・咽頭痛などの症状が続いている)。 同居家族や身近な知人に感染が疑われる方がいる。</li>
-                  </ul>
-                </dd>
-              </dl>
+            </div>
+            <div class='my-8 w-full md:w-4/5 mx-auto bg-hotaka-50 p-10 rounded-lg'>
+              <h2 class="p-6 font-bold md:text-3xl sm:text-base text-center text-hotaka-900">2022年大会</h2>
+              <h3 class="py-4 font-bold md:text-xl sm:text-base text-center text-hotaka-900">リザルト</h3>
+              <div class="text-center my-8">
+              <a href="https://drive.google.com/file/d/1__WIv7jXd7SF8fEMDOY1NsIWrh1NxVPv/view?usp=sharing" class="bg-hotaka-900 text-white px-4 py-2 rounded hover:bg-hotaka-800">Sprint</a>
+            </div>
+            <div class="text-center my-8">
+              <a href="https://drive.google.com/file/d/1exvm9eDYe2cGXn07K094GbNVOIzuoGJ0/view?usp=sharing" class="bg-hotaka-900 text-white px-4 py-2 rounded hover:bg-hotaka-800">Individual</a>
+            </div>
+              <h3 class="p-6 mb-4 font-bold md:text-xl sm:text-base text-center text-hotaka-900">大会公式フォト</h3>
+              <div class='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5'>
+                <a href='https://photos.app.goo.gl/2843Pz3ktVpVqJqb7' target="_blank">
+                  <div class="bg-20220402-spr-kurahashi w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out p-4">
+                    <div class="px-4 sm:px-6 lg:px-4 flex justify-center items-center grid py-16">
+                      <h2 class="text-center text-white text-xl font-bold w-full mb-4">Sprint<br/>倉橋 俊行</h2>
+                      <p class="border w-full p-3 text-white text-center font-bold">フォトギャラリー</p>
+                    </div>
+                  </div>
+                </a>
+                <a href='https://photos.app.goo.gl/bpHjnQ1t1cQQGC1V8' target="_blank">
+                  <div class="bg-20220402-spr-sekiguchi w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out p-4">
+                    <div class="px-4 sm:px-6 lg:px-4 flex justify-center items-center grid py-16">
+                      <h2 class="text-center text-white text-xl font-bold w-full mb-4">Sprint<br/>関口 祐司</h2>
+                      <p class="border w-full p-3 text-white text-center font-bold">フォトギャラリー</p>
+                    </div>
+                  </div>
+                </a>
+                <a href='https://photos.app.goo.gl/cioLLzak5UWEQMPS7' target="_blank">
+                  <div class="bg-20220403-ind-kurahashi w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out p-4">
+                    <div class="px-4 sm:px-6 lg:px-4 flex justify-center items-center grid py-16">
+                      <h2 class="text-center text-white text-xl font-bold w-full mb-4">Individual<br/>倉橋 俊行</h2>
+                      <p class="border w-full p-3 text-white text-center font-bold">フォトギャラリー</p>
+                    </div>
+                  </div>
+                </a>
+                <a href='https://photos.app.goo.gl/5gRPL9xFKqtRdY9VA' target="_blank">
+                  <div class="bg-20220403-ind-sekiguchi w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out p-4">
+                    <div class="px-4 sm:px-6 lg:px-4 flex justify-center items-center grid py-16">
+                      <h2 class="text-center text-white text-xl font-bold w-full mb-4">Individual<br/>関口 祐司</h2>
+                      <p class="border w-full p-3 text-white text-center font-bold">フォトギャラリー</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
             <div className='mt-8 text-center'>
               <Link href="/">
