@@ -535,7 +535,27 @@ export default function Rental() {
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
                 <dt class="w-full sm:w-1/5 pb-2 text-hotaka-900 font-semibold">宿泊</dt>
                 <dd class="w-full sm:w-4/5 pb-2">
-                  準備中
+                  宿泊についてはこちらに以下情報にて申込御願いします。<br />
+                  EMAIL⇒ ks@almonte.co.jp TEL⇒090-8892-2196<br />
+                  氏名/電話番号/E メールアドレス/宿泊プラン(2 食付・朝食付・素泊まり)/宿泊日/大人人数/小学生以下人数/3 歳までのお子様人数/その他<br />
+                  <br />
+                  【大人】中学生以上<br />
+                  ◼1 泊 2 食付き 9,350 円<br />
+                  ◼朝食付き 7,100 円<br />
+                  ◼素泊 5,500 円<br />
+                  ※シングル希望は 2200 円プラス<br />
+                  <br />
+                  【子供】小学生以下<br />
+                  ◼3 歳までのお子様<br />
+                  添い寝でのご利用の場合、無料<br />
+                  <br />
+                  ◼4 歳~小学生未満のお子様<br />
+                  大人料金の50%<br />
+                  <br />
+                  ◼小学生<br />
+                  大人料金の70%<br />
+                  <br />
+                  ◼宿泊費キャンセルについて予約日の 7 日~4 日前で宿泊料の 20%、3 日~2 日前で宿泊料の 50%、前日で宿泊料の 80%。当日のキャンセルや無断キャンセルの場合は、宿泊料の 100%を請求いたします。
                 </dd>
               </dl>
               <dl class="border-b border-dashed border-hotaka-900 py-4 my-4 flex flex-wrap">
