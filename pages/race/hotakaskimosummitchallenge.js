@@ -29,6 +29,11 @@ export default function Rental() {
         <main className='min-h-screen'>
         <Image src="/images/race/mv_hotaka.jpg" width={1900} height={1080} className='' />
           <section className='events mb-8 p-4 md:p-10'>
+            <div class="text-center mb-10">
+              <h3 class="py-4 font-bold md:text-xl sm:text-base text-center text-hotaka-900">スタートリスト</h3>
+              <a href="https://drive.google.com/file/d/1giTt4bOfmfrWaISqNUAIF_4kcR-u9bxO/view?usp=share_link" class="bg-hotaka-900 text-white px-4 mx-4 py-2 rounded hover:bg-hotaka-800">Sprint</a>
+              <a href="https://drive.google.com/file/d/1ePSk_tvkAmsjrSbFrO7-LZ-cEYNrLEEB/view?usp=share_link" class="bg-hotaka-900 text-white px-4 mx-4 py-2 rounded hover:bg-hotaka-800">Individual</a>
+            </div>
             <div className='w-full md:w-4/5 mx-auto mb-4 py-5 px-2 border-t-2 border-b-2 border-dashed border-hotaka-900'>
               <p class="mb-4 leading-relaxed text-sm md:text-base text-center text-hotaka-900">
                 夏は「SKYRUNNING」、冬は「SKIMO」で山頂を目指す<br />前武尊山が舞台のSKIMOレース
@@ -98,80 +103,49 @@ export default function Rental() {
                     </thead>
                     <tbody>
                       <tr>
-                        <td rowSpan={14} className='border text-sm text-center p-2'>4/1(土)</td>
-                        <td class="border text-sm p-2">9:00~10:20</td>
+                        <td rowSpan={6} className='border text-sm text-center p-2'>4/1(土)</td>
+                        <td class="border text-sm p-2">9:00~10:00</td>
                         <td class="border text-sm p-2">選手受付(スプリント種目参加者) センターハウス</td>
                       </tr>
                       <tr>
-                        <td class="border text-sm p-2">10:40</td>
-                        <td class="border text-sm p-2">レースブリーフィング Race briefing</td>
+                        <td class="border text-sm p-2">10:00</td>
+                        <td class="border text-sm p-2">開会式・レースブリーフィング</td>
                       </tr>
                       <tr>
-                        <td class="border text-sm p-2">11:00～11:20</td>
-                        <td class="border text-sm p-2">スプリント競技インスペクション Sprint inspection</td>
+                        <td class="border text-sm p-2">11:00～11:15</td>
+                        <td class="border text-sm p-2">スプリント競技インスペクション</td>
                       </tr>
                       <tr>
-                        <td class="border text-sm p-2">11:30～12:30</td>
-                        <td class="border text-sm p-2">スプリント 予選レーススタート(予選)30 名未満の場合は変わる</td>
+                        <td class="border text-sm p-2">11:30～11:50</td>
+                        <td class="border text-sm p-2">スプリント 予選レーススタート（予選） 30名未満の場合は準々決勝の組数が変わる</td>
                       </tr>
                       <tr>
-                        <td class="border text-sm p-2">13:00〜</td>
-                        <td class="border text-sm p-2">スプリント (準々決勝シニア男子/5 組各組 6 名/各組 2 名+2 名準決勝へ)</td>
+                        <td class="border text-sm p-2">12:30</td>
+                        <td class="border text-sm p-2">スプリント決勝 12:30〜ジュニア・ユース男女 12:40〜シニア女子 12:50〜シニア男子</td>
                       </tr>
                       <tr>
-                        <td class="border text-sm p-2">13:50~</td>
-                        <td class="border text-sm p-2">スプリント(準決勝シニア女子/2組各組 6 名/各組 3 名決勝へ)人数による</td>
+                        <td class="border text-sm p-2">14:00</td>
+                        <td class="border text-sm p-2">表彰式</td>
                       </tr>
-                      <tr>
-                        <td class="border text-sm p-2">14:10~</td>
-                        <td class="border text-sm p-2">スプリント(準決勝ジュニア・ユース男子準決勝/2組各組 6 名/各組 3 名決勝へ)人数による</td>
-                      </tr>
-                      <tr>
-                        <td class="border text-sm p-2">14:30~</td>
-                        <td class="border text-sm p-2">スプリント(準決勝ジュニア・ユース女子準決勝/2組各組 6 名/各組 3 名決勝へ)人数による</td>
-                      </tr>
-                      <tr>
-                        <td class="border text-sm p-2">14:50~</td>
-                        <td class="border text-sm p-2">スプリント (準々決勝シニア男子/2組各組 6 名/各組 3 名決勝へ)</td>
-                      </tr>
-                      <tr>
-                        <td class="border text-sm p-2">15:00~</td>
-                        <td class="border text-sm p-2">スプリント(決勝ジュニア・ユース男子 6 名)人数による</td>
-                      </tr>
-                      <tr>
-                        <td class="border text-sm p-2">15:10~</td>
-                        <td class="border text-sm p-2">スプリント(決勝ジュニア・ユース女子 6 名)人数による</td>
-                      </tr>
-                      <tr>
-                        <td class="border text-sm p-2">15:20~</td>
-                        <td class="border text-sm p-2">スプリント(決勝シニア女子決勝/6 名)人数による</td>
-                      </tr>
-                      <tr>
-                        <td class="border text-sm p-2">15:30~</td>
-                        <td class="border text-sm p-2">スプリント (決勝シニア男子/6 名)</td>
-                      </tr>
-                      <tr>
-                        <td class="border text-sm p-2">16:30〜</td>
-                        <td class="border text-sm p-2">開会式・表彰式</td>
-                      </tr>
+
                       <tr>
                         <td rowSpan={5} className='border text-sm text-center p-2'>4/2(日)</td>
-                        <td rowSpan={2} className='border text-sm p-2'>8:30〜</td>
+                        <td rowSpan={2} className='border text-sm p-2'>8:00</td>
                         <td rowSpan={2} className='border text-sm p-2'>選手受付(センターハウス)</td>
                       </tr>
                       <tr>
                       </tr>
                       <tr>
-                        <td class="border text-sm p-2">9:30</td>
-                        <td class="border text-sm p-2">スタートエリア移動 Move to the start area</td>
+                        <td class="border text-sm p-2">9:45</td>
+                        <td class="border text-sm p-2">スタートエリア整列</td>
                       </tr>
                       <tr>
                         <td class="border text-sm p-2">10:00～14:00</td>
-                        <td class="border text-sm p-2">インディヴィジュアル競技スタート Individual race Start</td>
+                        <td class="border text-sm p-2">インディヴィジュアル競技スタート</td>
                       </tr>
                       <tr>
-                        <td class="border text-sm p-2">14:30～</td>
-                        <td class="border text-sm p-2">表彰式、閉会式 Flower ceremony Award ceremony</td>
+                        <td class="border text-sm p-2">14:30</td>
+                        <td class="border text-sm p-2">表彰式</td>
                       </tr>
                     </tbody>
                   </table>
