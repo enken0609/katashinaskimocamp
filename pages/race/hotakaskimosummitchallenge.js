@@ -29,10 +29,14 @@ export default function Rental() {
         <main className='min-h-screen'>
         <Image src="/images/race/mv_hotaka.jpg" width={1900} height={1080} className='' />
           <section className='events mb-8 p-4 md:p-10'>
-            <div class="text-center mb-10">
-              <h3 class="py-4 font-bold md:text-xl sm:text-base text-center text-hotaka-900">スタートリスト</h3>
+            <div class="md:w-4/5 mx-auto text-center mb-10 border-2 border-red-500 p-4">
+              <h3 class="pt-4 font-bold md:text-xl sm:text-base text-center text-red-500">【重要】</h3>
+              <h3 class="pt-2 font-bold md:text-xl sm:text-base text-center text-red-500">※大会中止のお知らせ</h3>
+              <a href="https://www.instagram.com/p/CqQD9XsPE1X/" target="bla
+            " class="text-red-500 underline">詳しくはこちら</a>
+              {/* <h3 class="py-4 font-bold md:text-xl sm:text-base text-center text-hotaka-900">スタートリスト</h3>
               <a href="https://drive.google.com/file/d/1giTt4bOfmfrWaISqNUAIF_4kcR-u9bxO/view?usp=share_link" class="bg-hotaka-900 text-white px-4 mx-4 py-2 rounded hover:bg-hotaka-800">Sprint</a>
-              <a href="https://drive.google.com/file/d/1ePSk_tvkAmsjrSbFrO7-LZ-cEYNrLEEB/view?usp=share_link" class="bg-hotaka-900 text-white px-4 mx-4 py-2 rounded hover:bg-hotaka-800">Individual</a>
+              <a href="https://drive.google.com/file/d/1ePSk_tvkAmsjrSbFrO7-LZ-cEYNrLEEB/view?usp=share_link" class="bg-hotaka-900 text-white px-4 mx-4 py-2 rounded hover:bg-hotaka-800">Individual</a> */}
             </div>
             <div className='w-full md:w-4/5 mx-auto mb-4 py-5 px-2 border-t-2 border-b-2 border-dashed border-hotaka-900'>
               <p class="mb-4 leading-relaxed text-sm md:text-base text-center text-hotaka-900">
