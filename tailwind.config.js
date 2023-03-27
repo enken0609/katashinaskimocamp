@@ -28,6 +28,7 @@ module.exports = {
         '20220403-ind-sekiguchi': "url('/images/race/20220403-ind-sekiguchi.jpg')",
         '20220416-quest2': "url('/images/20220416-quest2.jpg')",
         '20230108-basic1': "url('/images/20230108-basic1.jpg')",
+        '20230325-quest1': "url('/images/20230325-quest1.jpg')",
       }
     },
   },

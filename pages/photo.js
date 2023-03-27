@@ -54,6 +54,14 @@ export default function Contact() {
                   </div>
                 </div>
               </a>
+              <a href='https://photos.app.goo.gl/uuxnSeF72yisrvPMA' target="_blank">
+                <div class="bg-20230325-quest1 w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out">
+                  <div class="px-4 sm:px-6 lg:px-4 flex justify-center items-center grid py-16">
+                    <h2 class="text-center text-white text-3xl font-bold w-full mb-4">2023/3/25-3/26<br/>QUEST Vol.1</h2>
+                    <p class="border w-full p-3 text-white text-center font-bold">フォトギャラリー</p>
+                  </div>
+                </div>
+              </a>
             </div>
           </section>
         </main>
