@@ -264,7 +264,7 @@ export default function Home({ events }) {
 }
 
 export const getStaticProps = async () => {
-  const data = await client.get({ endpoint: "events?limit=3"});
+  const data = await client.get({ endpoint: "events?limit=4"});
   let filterData = [];
   data.contents.forEach(function(e) {
     console.log(e.status[0])
