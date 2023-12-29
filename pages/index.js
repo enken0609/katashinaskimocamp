@@ -7,7 +7,11 @@ import { Footer } from '../components/Footer'
 import { client } from '../libs/client'
 import { NextSeo } from 'next-seo'
 
+import useLocale from '../hooks/useLocale';
+
 export default function Home({ events }) {
+  const { t } = useLocale();
+
   return (
     <>
       <NextSeo />
@@ -20,6 +24,12 @@ export default function Home({ events }) {
           <section className='p-8'>
             <Image src="/images/ksc_taiken.png" width={1920} height={1080} className='rounded-xl' />
             <div className='text-center md:w-2/3 pt-8 mx-auto'>
+              <div>
+      <Link href="/en" locale="en">
+        <a>Switch to English</a>
+      </Link>
+    </div>
+              <h1 class="katashina">{t.KATASHINA_VILLAGE}</h1>
               <h1 class="text-2xl md:text-5xl font-bold mb-2">KATASHINA SKIMO CAMP</h1>
               <p class="text-md md:text-3xl text-gray-500 mb-4">片品村で<span class="text-black font-bold">SKIMO</span>デビューしませんか？</p>
               <p className='mb-2 leading-relaxed'>
@@ -267,7 +277,6 @@ export const getStaticProps = async () => {
   const data = await client.get({ endpoint: "events?limit=4"});
   let filterData = [];
   data.contents.forEach(function(e) {
-    console.log(e.status[0])
     if (e.status[0] == '開催前') {
       filterData.push(e)
     }
