@@ -23,7 +23,7 @@ export const Navbar = () => {
       <nav className='flex items-center flex-wrap bg-base-500 p-1'>
         <Link href='/'>
           <a className='inline-flex items-center p-2 ml-4 mr-4'>
-            <Image src="/../public/images/ksc_logo_fixed.png" width={80} height={54} />
+            <Image src="/images/ksc_logo_fixed.png" width={80} height={54} />
             {/* <span className='text-xl text-base-900 font-bold uppercase tracking-wide'>
               KATASHINA SKIMO CAMP
             </span> */}
