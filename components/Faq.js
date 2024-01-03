@@ -38,6 +38,12 @@ const FAQ = ({}) => {
         </div>
         {isOpen[3] && <div className="faq-answer border-t-2 border-gray-100 py-4 pl-2 cursor-default">{t.A_4}</div>}
       </div>
+      <div className="faq-item bg-white mb-4 rounded-md p-2 cursor-pointer" key={4}>
+        <div className={`faq-question py-4 pl-2 ${isOpen[4] ? 'open' : ''}`} onClick={() => toggleFAQ(4)}>
+          <span class="text-base-900 text-xl font-bold">Q</span> {t.Q_5}
+        </div>
+        {isOpen[4] && <div className="faq-answer border-t-2 border-gray-100 py-4 pl-2 cursor-default">{t.A_5}</div>}
+      </div>
     </>
   );
 };

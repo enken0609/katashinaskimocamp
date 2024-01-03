@@ -98,6 +98,8 @@ Q_3: "Regarding access",
 A_3: "For those arriving by car, please come directly to the designated meeting point. If you are using the Katashina Snow Express, we provide shuttle service from the Katashina Road Station. ※Please contact us in advance.",
 Q_4: "What kind of clothing should I wear for participation?",
 A_4: "During low temperatures or snowfall, a down jacket and cold-resistant clothing are necessary. However, since it can get warm during the activity, we recommend easily removable clothing.",
+Q_5: "I live overseas, can I still participate?",
+A_5: "Of course. There is a shuttle bus service from Shinjuku Station. Please make a reservation for Katashina Snow Express and come to Katashina Village. If you are coming from other places, please contact us.",
 // TOP
 EVENT_DATE: "Date",
 BTN_TO_EVENT: "Event List",
