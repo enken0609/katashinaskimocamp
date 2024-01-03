@@ -78,16 +78,15 @@ export default function Home({ events }) {
                 </SwiperSlide>
               </Swiper>
             </div>
-
           </section>
           <section className='events mb-2 px-10 pb-10'>
             <div className='w-full mb-6'>
               <h2 className='text-2xl font-bold leading-7 text-base-900 sm:text-3xl sm:truncate'>EVENT</h2>
               <p class="text-base-900 font-bold">{t.EVENT}</p>
             </div>
-              <div class="text-right relative h-0 bottom-14">
-                <Image src='/images/mizubasho.png' width={70} height={64} class="absolute"/>
-              </div>
+            <div class="text-right relative h-0 bottom-14">
+              <Image src='/images/mizubasho.png' width={70} height={64} class="absolute"/>
+            </div>
             {events.length > 0 ? (
               <>
                 <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5'>
@@ -145,9 +144,9 @@ export default function Home({ events }) {
             </div>
           </section>
           <section className='rental_private_lesson mb-2 pb-10 pt-6 px-10'>
-              <div class="relative h-0 bottom-16 text-right right-0 md:right-10">
-                <Image src='/images/mountain.png' width={135} height={67} class="absolute"/>
-              </div>
+            <div class="relative h-0 bottom-16 text-right right-0 md:right-10">
+              <Image src='/images/mountain.png' width={135} height={67} class="absolute"/>
+            </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 -mt-2">
               <div class="rental border-4 border-base-900 bg-white p-6 md:p-10 md:mr-1 mb-4 z-10">
                 <div className="flex items-center mb-4">
@@ -161,11 +160,11 @@ export default function Home({ events }) {
                 </div>
                 <div class="text-center">
                   <p class="text-base-900 mb-4">{t.TOP_RENTAL_DESCRIPTION}</p>
-                <Link href="/rental">
-                  <a>
-                    <Image src='/images/ksc_rental.jpg' width={500} height={435} className='w-full mb-4 rounded-lg hover:opacity-75 duration-200'/>
-                  </a>
-                </Link>
+                  <Link href="/rental">
+                    <a>
+                      <Image src='/images/ksc_rental.jpg' width={500} height={435} className='w-full mb-4 rounded-lg hover:opacity-75 duration-200'/>
+                    </a>
+                  </Link>
                 </div>
               </div>
               <div class="private_lesson border-4 border-base-900 bg-white p-6 md:p-10 md:mr-1 mb-4 z-10">
@@ -179,12 +178,12 @@ export default function Home({ events }) {
                   </div>
                 </div>
                 <div class="text-center">
-                <p class="text-base-900 mb-4">{t.TOP_PRIVATE_LESSON_DESCRIPTION}</p>
-                <Link href="/rental">
-                  <a>
-                    <Image src='/images/private_lesson.jpg' width={500} height={435} className='w-full mb-4 rounded-lg hover:opacity-75 duration-200'/>
-                  </a>
-                </Link>
+                  <p class="text-base-900 mb-4">{t.TOP_PRIVATE_LESSON_DESCRIPTION}</p>
+                  <Link href="/rental">
+                    <a>
+                      <Image src='/images/private_lesson.jpg' width={500} height={435} className='w-full mb-4 rounded-lg hover:opacity-75 duration-200'/>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -195,7 +194,7 @@ export default function Home({ events }) {
               <p class="text-base-900 font-bold">{t.COACH}</p>
             </div>
             <div class="w-full">
-              <div class="relative h-0 bottom-32 left-1/2">
+              <div class="relative h-0 bottom-32 text-center">
                 <Image src='/images/tree.png' width={96} height={137} class="absolute"/>
               </div>
               <div class="mx-auto">
