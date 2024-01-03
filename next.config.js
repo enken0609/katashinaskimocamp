@@ -3,7 +3,7 @@ module.exports = {
     domains: ['images.microcms-assets.io']
   },
   i18n: {
-    locales: ['en', 'ja'],
+    locales: ['en', 'ja', 'zhcn', 'ko'],
     defaultLocale: 'ja',
 }
 };

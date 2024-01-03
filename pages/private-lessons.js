@@ -4,62 +4,76 @@ import { Navbar } from '../components/Navbar'
 import { Footer } from '../components/Footer'
 import { NextSeo } from 'next-seo'
 import { Swiper, SwiperSlide } from "swiper/react";
+import Link from 'next/link'
 
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
 
+import useLocale from '../hooks/useLocale';
+
 export default function Rental() {
+
+  const { t } = useLocale();
+
   return (
     <>
       <NextSeo title='プライベートレッスン' description='片品スキーモキャンプのプライベートレッスン。週末の予定が合わない方や、個人的にじっくり教えてもらいたいという方向けです。片品村の豊富な積雪、パウダースノーでスキーモを楽しみませんか？スキーモとはスキーマウンテニアリング(Ski Mountaineering=山岳スキー)の略です。スキーモは雪上のトレラン・スカイランです。シールと呼ばれる滑り止めを板の裏に貼り雪山を登り、シールを剥がして降ります。初めての方でもぜひチャレンジしてみてください。' />
       <body>
         <Navbar />
-        <main className='min-h-screen'>
-        <h1 className="bg-gray-100 py-20 md:p-32 text-center text-2xl md:text-3xl font-bold">プライベートレッスン</h1>
-          <section className='events mb-8 p-4 md:p-10'>
+        <main className='min-h-screen bg-base-500'>
+          <div class="flex flex-wrap px-8 pt-8">
+            <Link href="/">
+              <a class="mr-2 text-gray-600 hover:opacity-75">TOP</a>
+            </Link>
+            <span class="mr-2">/</span>
+            <p class="text-base-900">{t.PRIVATE_LESSON}</p>
+          </div>
+          <h1 className="text-2xl md:text-3xl font-bold text-base-900 mx-8 pt-4 md:pt-10">{t.PRIVATE_LESSON}</h1>
+          <p class="text-base-900 text-sm mx-8">{t.PRIVATE_LESSON}</p>
+          <section className='events p-4 md:p-10'>
             <div className='w-full md:w-4/5 mx-auto py-5 px-2'>
               <p class="mb-4 leading-relaxed text-sm md:text-base">
-                個人的にじっくり教えてもらいたいという方に向けて平日限定のプライベートプランもご用意しております。※土日も要相談<br/>
-                プランの内容はあくまで参考となります。参加者のレベルに合わせて対応させていただきますので、下記メールアドレスか<a href="https://forms.gle/ErbW5rLC1JV6fyBM7" class="underline text-blue-400">こちら</a>からお気軽にお問い合わせください。<br/>
-                ※レンタル料金は別途かかります。
+                {t.PRIVATE_LESSON_DESCRIPTION_1}<br/>
+                {t.PRIVATE_LESSON_DESCRIPTION_2}<a href="https://forms.gle/ErbW5rLC1JV6fyBM7" class="underline text-blue-400">{t.HERE}</a>{t.PRIVATE_LESSON_DESCRIPTION_3}<br/>
+                {t.PRIVATE_LESSON_DESCRIPTION_4}
               </p>
               <p>Mail：<a href="mailto:katashina.skimo@gmail.com?subject=プレイベートレッスンについて" class="underline text-blue-400">katashina.skimo@gmail.com</a></p>
             </div>
-            <div class='my-8 w-full md:w-4/5 mx-auto shadow-md p-4 md:p-8'>
-              <h2 class="border-b pb-1 mb-5 font-bold md:text-xl sm:text-base">基本プラン</h2>
+            <div class='my-8 w-full md:w-4/5 mx-auto shadow-md p-4 md:p-8 bg-white rounded-md'>
+              <h2 class="border-b pb-1 mb-5 font-bold md:text-xl sm:text-base">{t.BASIC_PLAN}</h2>
               <div class="grid ">
                 <div class="overflow-hidden overflow-x-scroll mb-2">
                   <table class="table-auto mx-auto w-full mb-5 sm:mt-4 text-xs md:text-base">
                     <thead>
                       <tr>
-                        <th rowSpan={2} className='border bg-gray-100 p-2'>人数</th>
-                        <th colSpan={2} className='border bg-gray-100 p-2'>料金</th>
+                        <th rowSpan={2} className='border bg-gray-100 p-2'>{t.NUMBER_OF_PEOPLE}</th>
+                        <th colSpan={2} className='border bg-gray-100 p-2'>{t.FEE}</th>
                       </tr>
                       <tr>
-                        <th className='border bg-gray-100 p-2'>半日<br/>(9:00~12:00)</th>
-                        <th className='border bg-gray-100 p-2'>1日<br/>(9:00~16:00)</th>
+                        <th className='border bg-gray-100 p-2'>{t.HALF_DAY}<br/>(9:00~12:00)</th>
+                        <th className='border bg-gray-100 p-2'>{t.ONE_DAY}<br/>(9:00~16:00)</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td className='border text-center p-2'>プライベート</td>
+                        <td className='border text-center p-2'>{t.PRIVATE}</td>
                         <td className='border text-center p-2'>¥6,000</td>
                         <td className='border text-center p-2'>¥9,000</td>
                       </tr>
                       <tr>
-                        <td className='border text-center p-2'>グループ(2名)</td>
+                        <td className='border text-center p-2'>{t.GROUP}(2{t.PEOPLE})</td>
                         <td className='border text-center p-2'>¥5,000</td>
                         <td className='border text-center p-2'>¥8,000</td>
                       </tr>
                       <tr>
-                        <td className='border text-center p-2'>グループ(3名)</td>
+                        <td className='border text-center p-2'>{t.GROUP}(3{t.PEOPLE})</td>
                         <td className='border text-center p-2'>¥4,000</td>
                         <td className='border text-center p-2'>¥7,000</td>
                       </tr>
                       <tr>
-                        <td className='border text-center p-2'>グループ(4名)</td>
+                        <td className='border text-center p-2'>{t.GROUP}(4{t.PEOPLE})</td>
                         <td className='border text-center p-2'>¥3,000</td>
                         <td className='border text-center p-2'>¥6,000</td>
                       </tr>
@@ -68,12 +82,12 @@ export default function Rental() {
                 </div>
               </div>
               <div class="mb-4">
-              <h4 class="font-bold md:text-xl sm:text-base mb-2">概要</h4>
+              <h4 class="font-bold md:text-xl sm:text-base mb-2">{t.SUMMARY}</h4>
               <p class="text-sm mb-8">
-                初めての方にはギアの説明を行います。実際に雪上で板、シールの脱着を行います。<br/>
-                登り方、ポールワーク、シール滑走、滑走、キックターンなどスキルアップのための技術指導を行います。<br/>
-                また2回目以降の方には技術指導を行いさらにスキルアップをしていただきます。<br/>
-                午後のプチツーリングは身につけたスキルを実践練習です。白銀の世界にアテンドします。
+                {t.SUMMARY_DESCRIPTION_1}<br/>
+                {t.SUMMARY_DESCRIPTION_2}<br/>
+                {t.SUMMARY_DESCRIPTION_3}<br/>
+                {t.SUMMARY_DESCRIPTION_4}
               </p>
               <Swiper
                   slidesPerView={1.5}
@@ -107,43 +121,43 @@ export default function Rental() {
                 </Swiper>
               </div>
             </div>
-            <div class='my-8 w-full md:w-4/5 mx-auto shadow-md p-4 md:p-8'>
-              <h2 class="border-b pb-1 mb-5 font-bold md:text-xl sm:text-base">ツアープラン</h2>
+            <div class='my-8 w-full md:w-4/5 mx-auto shadow-md p-4 md:p-8 bg-white rounded-md'>
+              <h2 class="border-b pb-1 mb-5 font-bold md:text-xl sm:text-base">{t.TOUR_PLAN}</h2>
               <div class="grid">
                 <div class="overflow-hidden overflow-x-scroll mb-2">
                   <table class="table-auto mx-auto w-full mb-5 sm:mt-4 text-xs md:text-base">
                     <thead>
                       <tr>
-                        <th rowSpan={2} className='border bg-gray-100 p-2'>人数</th>
-                        <th colSpan={3} className='border bg-gray-100 p-2'>料金</th>
+                        <th rowSpan={2} className='border bg-gray-100 p-2'>{t.NUMBER_OF_PEOPLE}</th>
+                        <th colSpan={3} className='border bg-gray-100 p-2'>{t.FEE}</th>
                       </tr>
                       <tr>
-                        <th className='border bg-gray-100 p-2 whitespace-nowrap'>武尊山山麓ツアー<br/>(9:00~16:00)</th>
-                        <th className='border bg-gray-100 p-2 whitespace-nowrap'>尾瀬ヶ原ツアー<br/>(9:00~16:00)</th>
-                        <th className='border bg-gray-100 p-2 whitespace-nowrap'>アヤメ平ツアー<br/>(9:00~16:00)</th>
+                        <th className='border bg-gray-100 p-2 whitespace-nowrap'>{t.TOUR_PLAN_HOTAKA}<br/>(9:00~16:00)</th>
+                        <th className='border bg-gray-100 p-2 whitespace-nowrap'>{t.TOUR_PLAN_OZEGAHARA}<br/>(9:00~16:00)</th>
+                        <th className='border bg-gray-100 p-2 whitespace-nowrap'>{t.TOUR_PLAN_AYAMEDAIRA}<br/>(9:00~16:00)</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td className='border text-center p-2 whitespace-nowrap'>プライベート</td>
+                        <td className='border text-center p-2 whitespace-nowrap'>{t.PRIVATE}</td>
                         <td className='border text-center p-2'>¥8,000</td>
                         <td className='border text-center p-2'>¥10,000</td>
                         <td className='border text-center p-2'>¥13,000</td>
                       </tr>
                       <tr>
-                        <td className='border text-center p-2 whitespace-nowrap'>グループ(2名)</td>
+                        <td className='border text-center p-2 whitespace-nowrap'>{t.GROUP}(2{t.PEOPLE})</td>
                         <td className='border text-center p-2'>¥7,000</td>
                         <td className='border text-center p-2'>¥9,000</td>
                         <td className='border text-center p-2'>¥12,000</td>
                       </tr>
                       <tr>
-                        <td className='border text-center p-2 whitespace-nowrap'>グループ(3名)</td>
+                        <td className='border text-center p-2 whitespace-nowrap'>{t.GROUP}(3{t.PEOPLE})</td>
                         <td className='border text-center p-2'>¥6,000</td>
                         <td className='border text-center p-2'>¥8,000</td>
                         <td className='border text-center p-2'>¥11,000</td>
                       </tr>
                       <tr>
-                        <td className='border text-center p-2 whitespace-nowrap'>グループ(4名)</td>
+                        <td className='border text-center p-2 whitespace-nowrap'>{t.GROUP}(4{t.PEOPLE})</td>
                         <td className='border text-center p-2'>¥5,000</td>
                         <td className='border text-center p-2'>¥7,000</td>
                         <td className='border text-center p-2'>¥10,000</td>
@@ -153,14 +167,14 @@ export default function Rental() {
                 </div>
               </div>
               <div class="mb-10">
-                <h3 class="font-bold md:text-xl mb-2 border-l-2 border-red-600 pl-2">武尊山山麓ツアー</h3>
+                <h3 class="font-bold md:text-xl mb-2 border-l-2 border-base-900 pl-2">{t.TOUR_PLAN_HOTAKA}</h3>
                 <p class="mb-2 leading-relaxed text-sm">
-                  体力 <span class="text-yellow-400">★</span>☆☆☆<br/>
-                  経験 <span class="text-yellow-400">★</span>☆☆☆<br/>
-                  滑走 <span class="text-yellow-400">★</span>☆☆☆<br/>
+                  {t.FITNESS_LEVEL} <span class="text-yellow-400">★</span>☆☆☆<br/>
+                  {t.TECHNICAL_LEVEL} <span class="text-yellow-400">★</span>☆☆☆<br/>
+                  {t.SKIING_LEVEL} <span class="text-yellow-400">★</span>☆☆☆<br/>
                 </p>
                 <p class="mb-8 leading-relaxed text-sm">
-                  旧武尊牧場スキー場をベースに山嶺の白樺の森、ブナの森、シラビソの森と山嶺を散策する2〜3時間のツアーです。始めたばかりの方でも気軽に申し込みいただけます。
+                  {t.TOUR_PLAN_HOTAKA_DESCRIPTION}
                 </p>
                 <Swiper
                   slidesPerView={1.5}
@@ -194,14 +208,14 @@ export default function Rental() {
                 </Swiper>
               </div>
               <div class="mb-10">
-                <h3 class="font-bold md:text-xl mb-2 border-l-2 border-red-600 pl-2">尾瀬ヶ原ツアー</h3>
+                <h3 class="font-bold md:text-xl mb-2 border-l-2 border-base-900 pl-2">{t.TOUR_PLAN_OZEGAHARA}</h3>
                 <p class="mb-2 leading-relaxed text-sm">
-                  体力 <span class="text-yellow-400">★</span>☆☆☆<br/>
-                  技術 <span class="text-yellow-400">★★</span>☆☆<br/>
-                  滑走 <span class="text-yellow-400">★</span>☆☆☆<br/>
+                  {t.FITNESS_LEVEL} <span class="text-yellow-400">★</span>☆☆☆<br/>
+                  {t.TECHNICAL_LEVEL} <span class="text-yellow-400">★★</span>☆☆<br/>
+                  {t.SKIING_LEVEL} <span class="text-yellow-400">★</span>☆☆☆<br/>
                 </p>
                 <p class="mb-8 leading-relaxed text-sm">
-                  鳩待までのゲートが開いた4月下旬〜GWの間の特別プラン鳩待から山の鼻まで降りて尾瀬ヶ原を散策する3時間ほどのツアーです。多少シール滑走したりする部分があるので難易度はあがります。
+                  {t.TOUR_PLAN_OZEGAHARA_DESCRIPTION}
                 </p>
                 <Swiper
                   slidesPerView={1.5}
@@ -235,14 +249,14 @@ export default function Rental() {
                 </Swiper>
               </div>
               <div class="mb-10">
-                <h3 class="font-bold md:text-xl mb-2 border-l-2 border-red-600 pl-2">アヤメ平ツアー</h3>
+                <h3 class="font-bold md:text-xl mb-2 border-l-2 border-base-900 pl-2">{t.TOUR_PLAN_AYAMEDAIRA}</h3>
                 <p class="mb-2 leading-relaxed text-sm">
-                  体力 <span class="text-yellow-400">★★★</span>☆<br/>
-                  技術 <span class="text-yellow-400">★</span>☆☆☆<br/>
-                  滑走 <span class="text-yellow-400">★★</span>☆☆<br/>
+                  {t.FITNESS_LEVEL} <span class="text-yellow-400">★★★</span>☆<br/>
+                  {t.TECHNICAL_LEVEL} <span class="text-yellow-400">★</span>☆☆☆<br/>
+                  {t.SKIING_LEVEL} <span class="text-yellow-400">★★</span>☆☆<br/>
                 </p>
                 <p class="mb-8 leading-relaxed text-sm">
-                  戸倉スキー場から片道9kmで800mの標高差を緩やかに登っていき、天上の楽園と呼ばれるアヤメ平で景色を楽しみ帰りは滑走で楽チン下山。尾瀬谷が一望の景色をお楽しみください。体力差にもよりますがゆっくり行っても6時間以内です。登坂技術はグライドができるようになるとスムーズに体力を温存できます。滑走技術はゲレンデ中級コースを降りて来られればなお良く、初級コースが滑れれば問題ありません。
+                  {t.TOUR_PLAN_AYAMEDAIRA_DESCRIPTION}
                 </p>
                 <Swiper
                   slidesPerView={1.5}

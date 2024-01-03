@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }) {
         />
       <GoogleAnalytics />
       <NextNProgress
-        color="#ee1a41"
+        color="#068A69"
         startPosition={0.3}
         stopDelayMs={200}
         height={3}

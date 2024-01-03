@@ -1,6 +1,8 @@
 import { useRouter } from 'next/router';
 import en from "../locales/en.js";
 import ja from "../locales/ja.js";
+import zhcn from "../locales/zh.js";
+import ko from "../locales/ko.js";
 
 function useLocale() {
   const router = useRouter();
@@ -10,6 +12,8 @@ function useLocale() {
   const translations = {
     en: en,
     ja: ja,
+    zhcn: zhcn,
+    ko: ko,
   };
 
   return {

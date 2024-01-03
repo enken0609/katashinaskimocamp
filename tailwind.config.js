@@ -16,7 +16,11 @@ module.exports = {
           700: '#008ffb',
           800: '#007bd9',
           900: '#0068B7'
-        }
+        },
+        base: {
+          500: '#DAE7DF',
+          900: '#068A69',
+        },
       },
       backgroundImage: {
         '20220102-basic1': "url('/images/20220102-basic1.jpg')",
@@ -29,6 +33,7 @@ module.exports = {
         '20220416-quest2': "url('/images/20220416-quest2.jpg')",
         '20230108-basic1': "url('/images/20230108-basic1.jpg')",
         '20230325-quest1': "url('/images/20230325-quest1.jpg')",
+        '20231223-basic1': "url('/images/20231223-basic1.jpg')",
       }
     },
   },
