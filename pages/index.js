@@ -179,7 +179,7 @@ export default function Home({ events }) {
                 </div>
                 <div class="text-center">
                   <p class="text-base-900 mb-4">{t.TOP_PRIVATE_LESSON_DESCRIPTION}</p>
-                  <Link href="/rental">
+                  <Link href="/private-lessons">
                     <a>
                       <Image src='/images/private_lesson.jpg' width={500} height={435} className='w-full mb-4 rounded-lg hover:opacity-75 duration-200'/>
                     </a>
