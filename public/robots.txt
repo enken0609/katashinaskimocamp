@@ -1,0 +1,10 @@
+// public/robots.txt
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://katashinaskimocamp.com
+
+# Sitemaps
+Sitemap: https://katashinaskimocamp.com/sitemap.xml
