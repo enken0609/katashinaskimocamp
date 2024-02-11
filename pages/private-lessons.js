@@ -20,32 +20,31 @@ export default function Rental() {
   return (
     <>
       <NextSeo title='プライベートレッスン' description='片品スキーモキャンプのプライベートレッスン。週末の予定が合わない方や、個人的にじっくり教えてもらいたいという方向けです。片品村の豊富な積雪、パウダースノーでスキーモを楽しみませんか？スキーモとはスキーマウンテニアリング(Ski Mountaineering=山岳スキー)の略です。スキーモは雪上のトレラン・スカイランです。シールと呼ばれる滑り止めを板の裏に貼り雪山を登り、シールを剥がして降ります。初めての方でもぜひチャレンジしてみてください。' />
-      <body>
         <Navbar />
         <main className='min-h-screen bg-base-500'>
-          <div class="flex flex-wrap px-8 pt-8">
-            <Link href="/">
-              <a class="mr-2 text-gray-600 hover:opacity-75">TOP</a>
+          <div className="flex flex-wrap px-8 pt-8">
+            <Link href="/" className="mr-2 text-gray-600 hover:opacity-75">
+              TOP
             </Link>
-            <span class="mr-2">/</span>
-            <p class="text-base-900">{t.PRIVATE_LESSON}</p>
+            <span className="mr-2">/</span>
+            <p className="text-base-900">{t.PRIVATE_LESSON}</p>
           </div>
           <h1 className="text-2xl md:text-3xl font-bold text-base-900 mx-8 pt-4 md:pt-10">{t.PRIVATE_LESSON}</h1>
-          <p class="text-base-900 text-sm mx-8">{t.PRIVATE_LESSON}</p>
+          <p className="text-base-900 text-sm mx-8">{t.PRIVATE_LESSON}</p>
           <section className='events p-4 md:p-10'>
             <div className='w-full md:w-4/5 mx-auto py-5 px-2'>
-              <p class="mb-4 leading-relaxed text-sm md:text-base">
+              <p className="mb-4 leading-relaxed text-sm md:text-base">
                 {t.PRIVATE_LESSON_DESCRIPTION_1}<br/>
-                {t.PRIVATE_LESSON_DESCRIPTION_2}<a href="https://forms.gle/ErbW5rLC1JV6fyBM7" class="underline text-blue-400">{t.HERE}</a>{t.PRIVATE_LESSON_DESCRIPTION_3}<br/>
+                {t.PRIVATE_LESSON_DESCRIPTION_2}<a href="https://forms.gle/ErbW5rLC1JV6fyBM7" className="underline text-blue-400">{t.HERE}</a>{t.PRIVATE_LESSON_DESCRIPTION_3}<br/>
                 {t.PRIVATE_LESSON_DESCRIPTION_4}
               </p>
-              <p>Mail：<a href="mailto:katashina.skimo@gmail.com?subject=プレイベートレッスンについて" class="underline text-blue-400">katashina.skimo@gmail.com</a></p>
+              <p>Mail：<a href="mailto:katashina.skimo@gmail.com?subject=プレイベートレッスンについて" className="underline text-blue-400">katashina.skimo@gmail.com</a></p>
             </div>
-            <div class='my-8 w-full md:w-4/5 mx-auto shadow-md p-4 md:p-8 bg-white rounded-md'>
-              <h2 class="border-b pb-1 mb-5 font-bold md:text-xl sm:text-base">{t.BASIC_PLAN}</h2>
-              <div class="grid ">
-                <div class="overflow-hidden overflow-x-scroll mb-2">
-                  <table class="table-auto mx-auto w-full mb-5 sm:mt-4 text-xs md:text-base">
+            <div className='my-8 w-full md:w-4/5 mx-auto shadow-md p-4 md:p-8 bg-white rounded-md'>
+              <h2 className="border-b pb-1 mb-5 font-bold md:text-xl sm:text-base">{t.BASIC_PLAN}</h2>
+              <div className="grid ">
+                <div className="overflow-hidden overflow-x-scroll mb-2">
+                  <table className="table-auto mx-auto w-full mb-5 sm:mt-4 text-xs md:text-base">
                     <thead>
                       <tr>
                         <th rowSpan={2} className='border bg-gray-100 p-2'>{t.NUMBER_OF_PEOPLE}</th>
@@ -81,9 +80,9 @@ export default function Rental() {
                   </table>
                 </div>
               </div>
-              <div class="mb-4">
-              <h4 class="font-bold md:text-xl sm:text-base mb-2">{t.SUMMARY}</h4>
-              <p class="text-sm mb-8">
+              <div className="mb-4">
+              <h4 className="font-bold md:text-xl sm:text-base mb-2">{t.SUMMARY}</h4>
+              <p className="text-sm mb-8">
                 {t.SUMMARY_DESCRIPTION_1}<br/>
                 {t.SUMMARY_DESCRIPTION_2}<br/>
                 {t.SUMMARY_DESCRIPTION_3}<br/>
@@ -121,11 +120,11 @@ export default function Rental() {
                 </Swiper>
               </div>
             </div>
-            <div class='my-8 w-full md:w-4/5 mx-auto shadow-md p-4 md:p-8 bg-white rounded-md'>
-              <h2 class="border-b pb-1 mb-5 font-bold md:text-xl sm:text-base">{t.TOUR_PLAN}</h2>
-              <div class="grid">
-                <div class="overflow-hidden overflow-x-scroll mb-2">
-                  <table class="table-auto mx-auto w-full mb-5 sm:mt-4 text-xs md:text-base">
+            <div className='my-8 w-full md:w-4/5 mx-auto shadow-md p-4 md:p-8 bg-white rounded-md'>
+              <h2 className="border-b pb-1 mb-5 font-bold md:text-xl sm:text-base">{t.TOUR_PLAN}</h2>
+              <div className="grid">
+                <div className="overflow-hidden overflow-x-scroll mb-2">
+                  <table className="table-auto mx-auto w-full mb-5 sm:mt-4 text-xs md:text-base">
                     <thead>
                       <tr>
                         <th rowSpan={2} className='border bg-gray-100 p-2'>{t.NUMBER_OF_PEOPLE}</th>
@@ -166,14 +165,14 @@ export default function Rental() {
                   </table>
                 </div>
               </div>
-              <div class="mb-10">
-                <h3 class="font-bold md:text-xl mb-2 border-l-2 border-base-900 pl-2">{t.TOUR_PLAN_HOTAKA}</h3>
-                <p class="mb-2 leading-relaxed text-sm">
-                  {t.FITNESS_LEVEL} <span class="text-yellow-400">★</span>☆☆☆<br/>
-                  {t.TECHNICAL_LEVEL} <span class="text-yellow-400">★</span>☆☆☆<br/>
-                  {t.SKIING_LEVEL} <span class="text-yellow-400">★</span>☆☆☆<br/>
+              <div className="mb-10">
+                <h3 className="font-bold md:text-xl mb-2 border-l-2 border-base-900 pl-2">{t.TOUR_PLAN_HOTAKA}</h3>
+                <p className="mb-2 leading-relaxed text-sm">
+                  {t.FITNESS_LEVEL} <span className="text-yellow-400">★</span>☆☆☆<br/>
+                  {t.TECHNICAL_LEVEL} <span className="text-yellow-400">★</span>☆☆☆<br/>
+                  {t.SKIING_LEVEL} <span className="text-yellow-400">★</span>☆☆☆<br/>
                 </p>
-                <p class="mb-8 leading-relaxed text-sm">
+                <p className="mb-8 leading-relaxed text-sm">
                   {t.TOUR_PLAN_HOTAKA_DESCRIPTION}
                 </p>
                 <Swiper
@@ -207,14 +206,14 @@ export default function Rental() {
                   </SwiperSlide>
                 </Swiper>
               </div>
-              <div class="mb-10">
-                <h3 class="font-bold md:text-xl mb-2 border-l-2 border-base-900 pl-2">{t.TOUR_PLAN_OZEGAHARA}</h3>
-                <p class="mb-2 leading-relaxed text-sm">
-                  {t.FITNESS_LEVEL} <span class="text-yellow-400">★</span>☆☆☆<br/>
-                  {t.TECHNICAL_LEVEL} <span class="text-yellow-400">★★</span>☆☆<br/>
-                  {t.SKIING_LEVEL} <span class="text-yellow-400">★</span>☆☆☆<br/>
+              <div className="mb-10">
+                <h3 className="font-bold md:text-xl mb-2 border-l-2 border-base-900 pl-2">{t.TOUR_PLAN_OZEGAHARA}</h3>
+                <p className="mb-2 leading-relaxed text-sm">
+                  {t.FITNESS_LEVEL} <span className="text-yellow-400">★</span>☆☆☆<br/>
+                  {t.TECHNICAL_LEVEL} <span className="text-yellow-400">★★</span>☆☆<br/>
+                  {t.SKIING_LEVEL} <span className="text-yellow-400">★</span>☆☆☆<br/>
                 </p>
-                <p class="mb-8 leading-relaxed text-sm">
+                <p className="mb-8 leading-relaxed text-sm">
                   {t.TOUR_PLAN_OZEGAHARA_DESCRIPTION}
                 </p>
                 <Swiper
@@ -248,14 +247,14 @@ export default function Rental() {
                   </SwiperSlide>
                 </Swiper>
               </div>
-              <div class="mb-10">
-                <h3 class="font-bold md:text-xl mb-2 border-l-2 border-base-900 pl-2">{t.TOUR_PLAN_AYAMEDAIRA}</h3>
-                <p class="mb-2 leading-relaxed text-sm">
-                  {t.FITNESS_LEVEL} <span class="text-yellow-400">★★★</span>☆<br/>
-                  {t.TECHNICAL_LEVEL} <span class="text-yellow-400">★</span>☆☆☆<br/>
-                  {t.SKIING_LEVEL} <span class="text-yellow-400">★★</span>☆☆<br/>
+              <div className="mb-10">
+                <h3 className="font-bold md:text-xl mb-2 border-l-2 border-base-900 pl-2">{t.TOUR_PLAN_AYAMEDAIRA}</h3>
+                <p className="mb-2 leading-relaxed text-sm">
+                  {t.FITNESS_LEVEL} <span className="text-yellow-400">★★★</span>☆<br/>
+                  {t.TECHNICAL_LEVEL} <span className="text-yellow-400">★</span>☆☆☆<br/>
+                  {t.SKIING_LEVEL} <span className="text-yellow-400">★★</span>☆☆<br/>
                 </p>
-                <p class="mb-8 leading-relaxed text-sm">
+                <p className="mb-8 leading-relaxed text-sm">
                   {t.TOUR_PLAN_AYAMEDAIRA_DESCRIPTION}
                 </p>
                 <Swiper
@@ -290,7 +289,6 @@ export default function Rental() {
           </section>
         </main>
         <Footer />
-      </body>
     </>
   )
 }
