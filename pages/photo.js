@@ -27,6 +27,14 @@ export default function Contact() {
           <p className="text-base-900 text-sm mx-8">{t.PHOTO}</p>
           <section className='events p-4 md:p-10'>
             <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5'>
+              <a href='https://photos.app.goo.gl/LMH1aVJ3PJvLye3s7' target="_blank">
+                <div className="bg-20240211-quest2 w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out filter brightness-90">
+                  <div className="px-4 sm:px-6 lg:px-4 justify-center items-center grid py-16">
+                    <h2 className="text-center text-white text-3xl font-bold w-full mb-4">2024/2/11-2/12<br/>QUEST Level.2</h2>
+                    <p className="border w-full p-3 text-white text-center font-bold">{t.PHOTO_GALLERY}</p>
+                  </div>
+                </div>
+              </a>
               <a href='https://photos.app.goo.gl/bUf9UvVJ1Wcau4ga8' target="_blank">
                 <div className="bg-20240102-quest2 w-full bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:opacity-90 transition duration-300 ease-in-out filter brightness-90">
                   <div className="px-4 sm:px-6 lg:px-4 justify-center items-center grid py-16">

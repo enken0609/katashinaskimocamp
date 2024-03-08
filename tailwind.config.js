@@ -35,6 +35,7 @@ module.exports = {
         '20230325-quest1': "url('/images/20230325-quest1.jpg')",
         '20231223-basic1': "url('/images/20231223-basic1.jpg')",
         '20240102-quest2': "url('/images/20240102-quest2.jpg')",
+        '20240211-quest2': "url('/images/20240211-quest2.jpg')",
       }
     },
   },
