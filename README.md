@@ -1,29 +1,54 @@
-# Next.js + Tailwind CSS Example
+# KATASHINA SKIMO CAMP
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+群馬県片品村でSKIMOというスポーツを普及するための体験イベントを開催するイベントサイトです。
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+**サイトURL**: [https://katashinaskimocamp.com/](https://katashinaskimocamp.com/)
 
-## Preview
+## 背景
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+SKIMOは日本ではまだマイナースポーツであり、以下のような課題を抱えていました：
+- 情報が限られており、アクセスが困難
+- 体験できるフィールドが少ない
+- 指導者や体験機会が限られている
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+これらの課題を解決するため、2019年より群馬県片品村で体験イベントを開始。現在までに延べ200人以上が体験し、SKIMOの魅力を伝えています。
 
-## Deploy your own
+## イベントについて
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+当イベントは、私含め実際にSKIMOのコーチとして活動している指導者が直接指導を行います。初心者から経験者まで、それぞれのレベルに合わせた体験プログラムを提供しています。
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+### 特徴
+- **ロケーション**: 「尾瀬」・「丸沼」・「武尊」3つの谷それぞれに日本百名山を有する群馬県片品村
+- **コンセプト**: フィットネスとして「ランドネ（randonnée）」を合言葉にスキーで登る楽しさを伝える
+- **地域特性**: 関東唯一の「特別豪雪地帯」片品村での本格的な体験
+- **サービス**:
+  - イベント開催
+  - レンタル用品の提供
+  - プライベートレッスン
+- **多言語対応**: 日本語・英語・中国語・韓国語
 
-## How to use
+## 概要
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+- **サイト名**: KATASHINA SKIMO CAMP
+- **目的**: SKIMOの普及と体験イベントの情報提供
+- **対象**: SKIMOに興味がある方、アウトドアスポーツ愛好家
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## 技術スタック
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### フロントエンド
+- **フレームワーク**: Next.js 14
+- **UIライブラリ**: React 18
+- **スタイリング**: Tailwind CSS
+- **UI/UXの機能強化**:
+  - Swiper: スライダー機能の実装
+  - nextjs-progressbar: ページ遷移時のプログレスバー
+  - next-seo: SEO最適化
+
+### バックエンド
+- **CMS**: microCMS
+  - サーバーレスのヘッドレスCMS
+  - コンテンツ管理とAPI提供
+
+### インフラストラクチャ
+- サーバーレスアーキテクチャ
+- コンテンツ配信の最適化
