@@ -2,8 +2,6 @@
 
 群馬県片品村でSKIMOというスポーツを普及するための体験イベントを開催するイベントサイトです。
 
-**サイトURL**: [https://katashinaskimocamp.com/](https://katashinaskimocamp.com/)
-
 ## 背景
 
 SKIMOは日本ではまだマイナースポーツであり、以下のような課題を抱えていました：
